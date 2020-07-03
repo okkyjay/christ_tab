@@ -1,0 +1,746 @@
+{\rtf1\ansi\ansicpg1252\uc1 \deff0\deflang1033\deflangfe1033{\fonttbl{\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\f1\fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial;}
+{\f2\fmodern\fcharset0\fprq1{\*\panose 02070309020205020404}Courier New;}{\f28\fswiss\fcharset128\fprq2{\*\panose 020b0604020202020204}Arial Unicode MS;}{\f29\froman\fcharset0\fprq2{\*\panose 02040502050405020303}Georgia;}
+{\f30\fswiss\fcharset0\fprq2{\*\panose 020b0604030504040204}Verdana;}{\f31\fswiss\fcharset128\fprq2{\*\panose 00000000000000000000}@Arial Unicode MS;}{\f40\froman\fcharset238\fprq2 Times New Roman CE;}{\f41\froman\fcharset204\fprq2 Times New Roman Cyr;}
+{\f43\froman\fcharset161\fprq2 Times New Roman Greek;}{\f44\froman\fcharset162\fprq2 Times New Roman Tur;}{\f45\froman\fcharset177\fprq2 Times New Roman (Hebrew);}{\f46\froman\fcharset178\fprq2 Times New Roman (Arabic);}
+{\f47\froman\fcharset186\fprq2 Times New Roman Baltic;}{\f48\fswiss\fcharset238\fprq2 Arial CE;}{\f49\fswiss\fcharset204\fprq2 Arial Cyr;}{\f51\fswiss\fcharset161\fprq2 Arial Greek;}{\f52\fswiss\fcharset162\fprq2 Arial Tur;}
+{\f53\fswiss\fcharset177\fprq2 Arial (Hebrew);}{\f54\fswiss\fcharset178\fprq2 Arial (Arabic);}{\f55\fswiss\fcharset186\fprq2 Arial Baltic;}{\f56\fmodern\fcharset238\fprq1 Courier New CE;}{\f57\fmodern\fcharset204\fprq1 Courier New Cyr;}
+{\f59\fmodern\fcharset161\fprq1 Courier New Greek;}{\f60\fmodern\fcharset162\fprq1 Courier New Tur;}{\f61\fmodern\fcharset177\fprq1 Courier New (Hebrew);}{\f62\fmodern\fcharset178\fprq1 Courier New (Arabic);}
+{\f63\fmodern\fcharset186\fprq1 Courier New Baltic;}{\f266\fswiss\fcharset0\fprq2 Arial Unicode MS Western;}{\f264\fswiss\fcharset238\fprq2 Arial Unicode MS CE;}{\f265\fswiss\fcharset204\fprq2 Arial Unicode MS Cyr;}
+{\f267\fswiss\fcharset161\fprq2 Arial Unicode MS Greek;}{\f268\fswiss\fcharset162\fprq2 Arial Unicode MS Tur;}{\f269\fswiss\fcharset177\fprq2 Arial Unicode MS (Hebrew);}{\f270\fswiss\fcharset178\fprq2 Arial Unicode MS (Arabic);}
+{\f271\fswiss\fcharset186\fprq2 Arial Unicode MS Baltic;}{\f272\froman\fcharset238\fprq2 Georgia CE;}{\f273\froman\fcharset204\fprq2 Georgia Cyr;}{\f275\froman\fcharset161\fprq2 Georgia Greek;}{\f276\froman\fcharset162\fprq2 Georgia Tur;}
+{\f279\froman\fcharset186\fprq2 Georgia Baltic;}{\f280\fswiss\fcharset238\fprq2 Verdana CE;}{\f281\fswiss\fcharset204\fprq2 Verdana Cyr;}{\f283\fswiss\fcharset161\fprq2 Verdana Greek;}{\f284\fswiss\fcharset162\fprq2 Verdana Tur;}
+{\f287\fswiss\fcharset186\fprq2 Verdana Baltic;}}{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;
+\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;\red204\green0\blue0;\red204\green204\blue170;}{\stylesheet{
+\ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \snext0 Normal;}{
+\s1\ql \li0\ri0\sb100\sa100\sbauto1\saauto1\widctlpar\aspalpha\aspnum\faauto\outlinelevel0\adjustright\rin0\lin0\itap0 \b\fs48\cf1\lang1033\langfe1033\kerning36\loch\f30\hich\af30\dbch\af28\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext1 heading 1;}{
+\s2\ql \li0\ri0\sb100\sa100\sbauto1\saauto1\widctlpar\aspalpha\aspnum\faauto\outlinelevel1\adjustright\rin0\lin0\itap0 \b\fs36\cf1\lang1033\langfe1033\loch\f30\hich\af30\dbch\af28\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext2 heading 2;}{
+\s3\ql \li0\ri0\sb100\sa100\sbauto1\saauto1\widctlpar\aspalpha\aspnum\faauto\outlinelevel2\adjustright\rin0\lin0\itap0 \b\fs27\cf1\lang1033\langfe1033\loch\f30\hich\af30\dbch\af28\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext3 heading 3;}{
+\s4\ql \li0\ri0\sb100\sa100\sbauto1\widctlpar\aspalpha\aspnum\faauto\outlinelevel3\adjustright\rin0\lin0\itap0 \b\fs24\cf1\lang1033\langfe1033\loch\f30\hich\af30\dbch\af28\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext4 heading 4;}{
+\s5\ql \li0\ri0\sb100\sa400\sbauto1\widctlpar\aspalpha\aspnum\faauto\outlinelevel4\adjustright\rin0\lin0\itap0 \b\fs20\cf1\lang1033\langfe1033\loch\f30\hich\af30\dbch\af28\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext5 heading 5;}{
+\s6\ql \li0\ri0\sb100\sa400\sbauto1\widctlpar\aspalpha\aspnum\faauto\outlinelevel5\adjustright\rin0\lin0\itap0 \b\fs15\cf1\lang1033\langfe1033\loch\f30\hich\af30\dbch\af28\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext6 heading 6;}{\*\cs10 \additive 
+Default Paragraph Font;}{\*\cs15 \additive \ulnone\cf2\animtext0 \sbasedon10 Hyperlink;}{\*\cs16 \additive \ulnone\cf12\animtext0 \sbasedon10 FollowedHyperlink;}{\*\cs17 \additive \fs20\loch\f2\hich\af2\dbch\af28 \sbasedon10 HTML Code;}{
+\s18\ql \li0\ri0\widctlpar\tx916\tx1832\tx2748\tx3664\tx4580\tx5496\tx6412\tx7328\tx8244\tx9160\tx10076\tx10992\tx11908\tx12824\tx13740\tx14656\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 
+\fs20\cf1\lang1033\langfe1033\loch\f2\hich\af2\dbch\af28\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext18 HTML Preformatted;}{\s19\ql \li0\ri0\sb100\sa100\sbauto1\saauto1\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 
+\fs24\cf1\lang1033\langfe1033\loch\f28\hich\af28\dbch\af28\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext19 highlight;}{\s20\ql \li0\ri0\sb100\sa100\sbauto1\saauto1\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 
+\fs24\cf8\lang1033\langfe1033\loch\f28\hich\af28\dbch\af28\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext20 white;}{\s21\ql \li0\ri0\sb100\sa100\sbauto1\saauto1\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 
+\fs24\cf6\lang1033\langfe1033\loch\f28\hich\af28\dbch\af28\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext21 red;}{\s22\ql \li0\ri0\sb100\sa100\sbauto1\saauto1\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 
+\fs24\cf7\lang1033\langfe1033\loch\f28\hich\af28\dbch\af28\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext22 yellow;}{\s23\ql \li0\ri0\sb100\sa100\sbauto1\saauto1\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 
+\fs24\cf2\lang1033\langfe1033\loch\f28\hich\af28\dbch\af28\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext23 blue;}{\s24\ql \li0\ri0\sb100\sa100\sbauto1\saauto1\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 
+\fs24\cf1\lang1033\langfe1033\loch\f28\hich\af28\dbch\af28\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext24 black;}{\s25\ql \li0\ri0\sb100\sa100\sbauto1\saauto1\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 
+\fs24\cf11\lang1033\langfe1033\loch\f28\hich\af28\dbch\af28\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext25 green;}{\s26\ql \li0\ri0\sb100\sa100\sbauto1\saauto1\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 
+\fs20\cf1\lang1033\langfe1033\loch\f1\hich\af1\dbch\af28\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext26 sermoninfo;}{\s27\ql \li0\ri0\sb100\sa100\sbauto1\saauto1\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 
+\fs20\cf8\lang1033\langfe1033\loch\f1\hich\af1\dbch\af28\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext27 sermoninfohead;}{\s28\ql \li0\ri0\sb100\sa100\sbauto1\saauto1\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 
+\fs48\cf17\lang1033\langfe1033\loch\f1\hich\af1\dbch\af28\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext28 Title;}{\s29\ql \li0\ri0\sb100\sa100\sbauto1\saauto1\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 
+\fs18\cf18\lang1033\langfe1033\loch\f1\hich\af1\dbch\af28\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext29 paranum;}{\s30\ql \li0\ri0\sb100\sa100\sbauto1\saauto1\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 
+\fs18\cf1\lang1033\langfe1033\loch\f28\hich\af28\dbch\af28\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext30 editornotes;}{\s31\ql \li400\ri0\sb100\sa100\sbauto1\saauto1\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin400\itap0 
+\b\fs24\cf1\lang1033\langfe1033\loch\f29\hich\af29\dbch\af28\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext31 scripture;}{\s32\ql \li400\ri0\sb100\sa100\sbauto1\saauto1\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin400\itap0 
+\i\fs24\cf1\lang1033\langfe1033\loch\f28\hich\af28\dbch\af28\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext32 singing;}{\s33\ql \li0\ri0\sb100\sa100\sbauto1\saauto1\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 
+\fs24\cf1\lang1033\langfe1033\loch\f28\hich\af28\dbch\af28\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext33 singcomment;}{\s34\ql \li600\ri0\sb100\sa100\sbauto1\saauto1\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin600\itap0 
+\fs24\cf1\lang1033\langfe1033\loch\f28\hich\af28\dbch\af28\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext34 embeddedfloat;}{\s35\ql \fi-800\li800\ri0\sb100\sa100\sbauto1\saauto1\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin800\itap0 
+\fs20\cf1\lang1033\langfe1033\loch\f30\hich\af30\dbch\af28\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext35 footnote;}{\s36\ql \li0\ri0\sb100\sa100\sbauto1\saauto1\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 
+\fs2\cf1\lang1033\langfe1033\loch\f28\hich\af28\dbch\af28\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext36 microtext;}{\s37\ql \li0\ri0\sb100\sa100\sbauto1\saauto1\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 
+\fs24\cf1\lang1033\langfe1033\loch\f2\hich\af2\dbch\af28\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext37 arrow;}{\s38\ql \li0\ri0\sb100\sa100\sbauto1\saauto1\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 
+\fs24\cf18\lang1033\langfe1033\loch\f28\hich\af28\dbch\af28\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext38 pathtext;}{\*\cs39 \additive \ulnone\cf8\animtext0 \sbasedon10 Hyperlink1;}{\*\cs40 \additive \ulnone\cf8\animtext0 \sbasedon10 
+FollowedHyperlink1;}{\*\cs41 \additive \cf18 \sbasedon10 pathtext1;}{\*\cs42 \additive \f2 \sbasedon10 arrow1;}{\*\cs43 \additive \f1\fs48\cf17 \sbasedon10 title1;}{\*\cs44 \additive \f1\fs20\cf8\chshdng0\chcfpat0\chcbpat0 \sbasedon10 sermoninfohead1;}{\*
+\cs45 \additive \sbasedon10 printhidden;}{\s46\ql \li0\ri0\sb100\sa100\sbauto1\saauto1\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs24\cf1\lang1033\langfe1033\loch\f28\hich\af28\dbch\af28\cgrid\langnp1033\langfenp1033 
+\sbasedon0 \snext46 Normal (Web);}{\*\cs47 \additive \f1\fs18\cf18 \sbasedon10 paranum1;}{\*\cs48 \additive \fs18 \sbasedon10 editornotes1;}{\*\cs49 \additive \sbasedon10 singcomment1;}{\s50\ql \li0\ri0\widctlpar
+\tqc\tx4320\tqr\tx8640\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext50 footer;}{\*\cs51 \additive \sbasedon10 page number;}{\s52\ql \li0\ri0\widctlpar
+\tqc\tx4320\tqr\tx8640\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext52 header;}{\s53\qc \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 
+\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext53 Body Text;}{\s54\qc \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext54 Body Text 2;}
+{\s55\qc \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext55 Body Text 3;}}{\info{\title Questions And Answers #2}{\author ..}{\operator ..}
+{\creatim\yr2002\mo3\dy30\hr9\min14}{\revtim\yr2002\mo3\dy30\hr9\min14}{\version2}{\edmins1}{\nofpages28}{\nofwords13004}{\nofchars74124}{\nofcharsws91029}{\vern8247}}\margl1440\margr1440 
+\widowctrl\ftnbj\aenddoc\noxlattoyen\expshrtn\noultrlspc\dntblnsbdb\nospaceforul\hyphcaps0\formshade\horzdoc\dgmargin\dghspace180\dgvspace180\dghorigin1440\dgvorigin1440\dghshow1\dgvshow1
+\jexpand\viewkind1\viewscale100\pgbrdrhead\pgbrdrfoot\splytwnine\ftnlytwnine\htmautsp\nolnhtadjtbl\useltbaln\alntblind\lytcalctblwd\lyttblrtgr\lnbrkrule \fet0\sectd \linex0\endnhere\titlepg\sectlinegrid360\sectdefaultcl {\footer \pard\plain 
+\s50\ql \li0\ri0\widctlpar\tqc\tx4320\tqr\tx8640\pvpara\phmrg\posxr\posy0\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\field{\*\fldinst {\cs51 PAGE  }}{\fldrslt {
+\cs51\lang1024\langfe1024\noproof 28}}}{\cs51 
+\par }\pard \s50\ql \fi360\li0\ri360\widctlpar\tqc\tx4320\tqr\tx8640\aspalpha\aspnum\faauto\adjustright\rin360\lin0\itap0 {
+\par }}{\*\pnseclvl1\pnucrm\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl2\pnucltr\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl3\pndec\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang{\pntxta )}}
+{\*\pnseclvl5\pndec\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl6\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl8
+\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}\pard\plain \qc \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 
+\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\cs43\f1\fs48\cf17 Faith Is The Substance}{\cf1\loch\af29\hich\af29\dbch\af28 
+\par }\pard\plain \s46\ql \li0\ri0\sb100\sa100\sbauto1\saauto1\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs24\cf1\lang1033\langfe1033\loch\af28\hich\af28\dbch\af28\cgrid\langnp1033\langfenp1033 {\cs47\f1\fs18\cf18\super 
+\hich\af1\dbch\af28\loch\f1 E-1}{\f29 \hich\af29\dbch\af28\loch\f29  They're getting some new gadgets for recording.\line \hich\af29\dbch\af28\loch\f29 
+We're hardly know each night where we're going to be at. That's just I think the--about the third move in the last four nights. So we got another move, I think, tomorrow night. So that's what makes it awfully bad, just kind of shifting around from place t
+\hich\af29\dbch\af28\loch\f29 o\hich\af29\dbch\af28\loch\f29  place, then you'll hardly... It's just like a new place every night, and--and makes it very hard.\line 
+I trust that some time when I come back again to Oakland, why, maybe we can get something like the auditorium here for a week or two. That's when we can hav\hich\af29\dbch\af28\loch\f29 e\hich\af29\dbch\af28\loch\f29 
+ a real revival and a real meeting. Don't you believe that? Yes, I believe we could too.\line 
+It's just our schedule has been so irregular. Well, I would say this: we're just a night or two here and then a hundred miles farther. Just about the time we get the \hich\af29\dbch\af28\loch\f29 t\hich\af29\dbch\af28\loch\f29 
+hing, the people settled down to where they can begin to see the supernatural moving of God, then it's they break up the meeting, go somewhere else two, three, four hundred miles farther and start again, and just when the people are becoming into the revi
+\hich\af29\dbch\af28\loch\f29 v\hich\af29\dbch\af28\loch\f29 \hich\f29 al stage where they can be healed and many things can be done\'85\loch\f29  
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-2}{\f29 \hich\af29\dbch\af28\loch\f29 
+ So I think, after I get back now from Canada, well, before we go to Mexico or anywhere, I think we'll just make the revival places, stay about a month at a time in a place, or something li\hich\af29\dbch\af28\loch\f29 
+ke that, so we can just really get the people... When they can stay long enough till some of the people that's prayed for, will be--begin to come in, and reports coming in, getting well, getting well like that, and testimonies going...\line 
+Like in my own home\hich\af29\dbch\af28\loch\f29  \hich\af29\dbch\af28\loch\f29 
+town at Jeffersonville, Indiana. Why, it's nothing there. My, just as soon we come into town, hundreds of people flock from everywhere, 'cause they have--they are... You're settled down to one place; you're not on the move like this. 
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-3}{\f29 \hich\af29\dbch\af28\loch\f29  And then, friends\hich\af29\dbch\af28\loch\f29 , this is just about six months I've been going day and night almost.\line 
+Today I had a wonderful day alone with God. No one was there but just the Lord and I. And I get myself more settled down when I get alone. Now, I've got five more meetings before I have\hich\af29\dbch\af28\loch\f29  \hich\af29\dbch\af28\loch\f29 
+any rest coming up: five more meetings. And then in the month of May, I'm to take a complete month, going up into the Rocky Mountains where, my, alone there when you kinda look like get... I like to be alone with God. That's the way to--that I find Him so
+\hich\af29\dbch\af28\loch\f29  \hich\af29\dbch\af28\loch\f29 dear to me. And then coming back then to start into Canada... 
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-4}{\f29 \hich\af29\dbch\af28\loch\f29  Now, we do not have much time. What time you have to close the auditorium? Eleven o'clock? Eleven o'clock, I think they said is closing of the auditorium.
+\line So I wish to speak to you tonight \hich\af29\dbch\af28\loch\f29 just for--just take a little bit of time and teach the Word of faith, and that you might know how to approach God.\line 
+There's many of these great and deep subjects that people claim that they know much about. And when it comes down to the final showdown, the\hich\af29\dbch\af28\loch\f29 y\hich\af29\dbch\af28\loch\f29 
+ know very little of it. Now, that's true. And we're going to find out a few of those things tonight.\line 
+And by the way, day after tomorrow night at the other auditorium, I'm to give a little sketch of my life story; that is, if you'd like to hear it. Would \hich\af29\dbch\af28\loch\f29 y\hich\af29\dbch\af28\loch\f29 
+ou like to hear it? Let's see your hands. That's--that's just fine. Have you announced where the auditorium is? 
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-5}{\f29 \hich\af29\dbch\af28\loch\f29  }{\cs48\f29\fs18 \hich\af29\dbch\af28\loch\f29 [End of record--Ed.]}{\f29 \hich\af29\dbch\af28\loch\f29 
+... that you will get a reasonable idea, because I want you to be healed. That's what I'm here for. I... This is a grea\hich\af29\dbch\af28\loch\f29 
+t sacrifice for me to be here, friends. I have a home, a family. And I'm new; I'm just a--a baby in the work. This is just a few months since the gift of healing came to me.\line 
+I don't have--I don't...?... own my home. I just live in two rooms in a little "L\hich\af29\dbch\af28\loch\f29 "\hich\af29\dbch\af28\loch\f29 
+ cottage. My wife packs water for somewhat, almost a half a city block, packs it back out of the house again. I've been offered wonderful homes in different cities where they tell me, "I'll build you a home worth five thousand dollars, just give it to you
+\hich\af29\dbch\af28\loch\f29 .\hich\af29\dbch\af28\loch\f29 " 
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-6}{\f29 \hich\af29\dbch\af28\loch\f29 
+ Friends, it isn't money with me. I--I'm--I wished I never even had to think about it. And that's the reason that many of you send, you offer me your gifts; I--I don't take them. Because it's not your--your finance; I want your confidence. I--I'm her
+\hich\af29\dbch\af28\loch\f29 e for your healing. 
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-7}{\f29 \hich\af29\dbch\af28\loch\f29 
+ And as I was saying about the little home, wife and two children, I would--I'd love to be with them tonight. Just about now, it's eleven o'clock, that faithful little one's on her knees praying for me now. She knows it's just about
+\hich\af29\dbch\af28\loch\f29 
+ time to start in the service. Lovely old mother, she's praying for me. The little boy, that his mother died when he was just two years old, he's praying for me. And somehow when I come into the pulpit, I just feel that their prayers will be answered. And
+\hich\af29\dbch\af28\loch\f29  \hich\af29\dbch\af28\loch\f29 I know He's near.\line 
+You don't know how I'd like to see them tonight. When I left them at the plane, coming, a few months ago they were holding onto my coat and crying. The doctor in my church told me that I wouldn't live but about a year longer: said at the
+\hich\af29\dbch\af28\loch\f29  \hich\af29\dbch\af28\loch\f29 rate I was going that I would drop some night in a heart attack in the pulpit. And my little boy is afraid of that, so he's just crying, saying, "Daddy, don't go." 
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-8}{\f29 \hich\af29\dbch\af28\loch\f29  But there's something calls out to the sick and suffering. And friends, I can only help\hich\af29\dbch\af28\loch\f29 
+ you if you believe me. That's the only way that I can ever do anything for you.\line 
+And I would love to be there tonight. You don't know how I would like... Many of you know what it is to be away from home, don't you? But I... It's... I say it's just a littl\hich\af29\dbch\af28\loch\f29 e\hich\af29\dbch\af28\loch\f29 
+ shack. But it doesn't take a big house to make a home. It's the character on the inside that makes a home. And I'm thankful for a home.\line So God bless you. And you pray for me, and I'll tell you more about it the day after tomorrow night. 
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-9}{\f29 \hich\af29\dbch\af28\loch\f29  And now, toni\hich\af29\dbch\af28\loch\f29 
+ght, friends, if you will, keep the little fellows just as patient as you can, and you be the same. And give me your undivided attention just for a few moments. And I'll try to explain to you, the best of my knowledge, the reason I'm here tonight, and how
+\hich\af29\dbch\af28\loch\f29  \hich\af29\dbch\af28\loch\f29 that you must approach God to receive your healing.\line I've suffered much, and I know what it is to be sick. And I--I want to help you. And I can if you'll just believe.\line 
+I wish to take this opportunity, just now... I have so many things on my mind and tired \hich\af29\dbch\af28\loch\f29 a\hich\af29\dbch\af28\loch\f29 
+nd weary. But I want to thank the minister; I just forget his name, of who let us have this auditorium tonight, I think, give away his services: Reverend Jack Walker. If he's in the audience, Brother Walker, may God bless you my brother, you and your... m
+\hich\af29\dbch\af28\loch\f29 a\hich\af29\dbch\af28\loch\f29 ke you... }{\cs48\f29\fs18 \hich\af29\dbch\af28\loch\f29 [End of record--Ed.]}{\f29 \hich\af29\dbch\af28\loch\f29  
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-10}{\f29 \hich\af29\dbch\af28\loch\f29 
+ ... Father, we're so thankful for this, another opportunity tonight to stand before Your lovely people to speak to them concerning the day and the hour that we're living, just before the coming of Thy beloved Son to tak\hich\af29\dbch\af28\loch\f29 
+e away a Church, a called-out people that's Blood washed, born the second time, and are ready to go meet a holy God: a way bridged for them by the Blood of the holy Christ of God.\line 
+Bless us tonight together as we wait for Thy Divine Presence. And may the A\hich\af29\dbch\af28\loch\f29 n\hich\af29\dbch\af28\loch\f29 
+gel that Thou did send into the room that night to speak to Thy servant, and the reason of being here tonight, may He stand on the pulpit by Thy humble servant tonight and confirm every word that's spoke. And may great signs and wonders follow.\line 
+Bless the \hich\af29\dbch\af28\loch\f29 m\hich\af29\dbch\af28\loch\f29 
+inister, Father, Brother Walker, who gave us the auditorium tonight. He and his, may they be blessed. Make him successful in Thy ministry, a fruitful branch. And may he have many trophies to lay at Your feet at that great day. Bless the minister that spon
+\hich\af29\dbch\af28\loch\f29 s\hich\af29\dbch\af28\loch\f29 
+ored this program here in this city, Brother Moss, all the other ministers, the coworkers. O God, may their churches be flames of fire, testimonies for the glory of God in this last evil days that we're living in the shadows just before the coming of the 
+\hich\af29\dbch\af28\loch\f29 j\hich\af29\dbch\af28\loch\f29 ust One.\line 
+Oh, speak tonight, Father, in a great way to the people. And may there be faith, and may the Holy Spirit tip His wings across this auditorium tonight. And may virtue come in such a way, that many, many great miraculous healings may be done, that 
+\hich\af29\dbch\af28\loch\f29 H\hich\af29\dbch\af28\loch\f29 is fame may be spread forth through all the regions up and down this western coast of this hemisphere. For we ask it in His Name and for His glory. Amen. 
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-11}{\f29 \hich\af29\dbch\af28\loch\f29  Now, friends, as I say, we're shifted about so many times. I guess many of you here never even h\hich\af29\dbch\af28\loch\f29 
+eard how the gift of Divine healing come. But only thing I want you to do tonight is to believe me. If you will believe, you shall see God's glory; I'm sure. The success has not been as I hoped it would be in the last few nights, though cripples, afflicti
+\hich\af29\dbch\af28\loch\f29 o\hich\af29\dbch\af28\loch\f29 ns, deaf, dumb, lame... But it's very slow, it seems to be, since we've hit the west coast.\line 
+Brother Charles Fuller was speaking to me when we was down at Long Beach, and he told me, said, "Brother Branham," said, "the reason," said, "this west coast here \hich\af29\dbch\af28\loch\f29 h\hich\af29\dbch\af28\loch\f29 
+as everything under the name of Divine healing." Said, "They have Blue Flame worshippers, Father Divine worship and all, everything under the name of Divine healing." Said, "It's such a stumbling block." Well, that... That may be so, friends; I do not kno
+\hich\af29\dbch\af28\loch\f29 w\hich\af29\dbch\af28\loch\f29 ; but that does not counteract God's power to heal. 
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-12}{\f29 \hich\af29\dbch\af28\loch\f29  }{\cs48\f29\fs18 \hich\af29\dbch\af28\loch\f29 [End of record--Ed.]}{\f29 \hich\af29\dbch\af28\loch\f29 
+... of worship and the Healer Divine. And now, no man can do a miracle in His Name that can speak light of Him. That's what He said. So if anybody is getting people healed, I'm t\hich\af29\dbch\af28\loch\f29 
+hankful for it. But I truly believe with all my heart as we go into the subject tonight that you, maybe, if God will just help us, that you'll get the vision and see what really the day and time that we're living. And then you'll see and believe. 
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-13}{\f29 \hich\af29\dbch\af28\loch\f29  May\hich\af29\dbch\af28\loch\f29 
+ God help us as I read some of the Scriptures now. Over in the book of Hebrews the 11th chapter, we will begin and read the first three verses. Listen very closely, because my words is just the words of a mortal. They will fail. But God's Word will never 
+\hich\af29\dbch\af28\loch\f29 f\hich\af29\dbch\af28\loch\f29 ail. It's always true.}{\b\f29 
+\par }\pard\plain \ql \li400\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin400\itap0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\b\f29 Now, faith is the substance of things hoped for, the evidence of things not seen.
+\par For by it the elders obtained a good report.
+\par Through faith we understand that the worlds were framed by the word of God, so that things which are seen were... made of things which do appear.
+\par By faith Abel offered unto God a more excellent sacrifice than Cain, by which he obtained a witness... he was righteous, God testifying of his gifts; and by it... being dead yet spake.
+\par }\pard\plain \s46\ql \li0\ri0\sb100\sa100\sbauto1\saauto1\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs24\cf1\lang1033\langfe1033\loch\af28\hich\af28\dbch\af28\cgrid\langnp1033\langfenp1033 {\cs47\f1\fs18\cf18\super 
+\hich\af1\dbch\af28\loch\f1 E-14}{\f29 \hich\af29\dbch\af28\loch\f29  PA system's a little bit \hich\af29\dbch\af28\loch\f29 loud... }{\cs48\f29\fs18 \hich\af29\dbch\af28\loch\f29 [Blank.spot.on.tape--Ed.]}{\f29 \hich\af29\dbch\af28\loch\f29 
+ All right. Now, I think that may be just a little--little better: kind of causes a rebound from... All right.\line Now, I wish to take my text out of the 3rd chap--or the 3rd verse, rather, and the last--one of the last phases,
+\hich\af29\dbch\af28\loch\f29  "God testifying of His gifts." And now, for my subject, it's found in the 1st chapter, the 1st verse, rather (Pardon me.), the 1st verse, "Faith Is The Substance Of Things Hoped For, The Evidence Of Things Not Seen." 
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-15}{\f29 \hich\af29\dbch\af28\loch\f29  This day that we're living in, i\hich\af29\dbch\af28\loch\f29 
+t's such a day of unsettled peace and unsettled rest everywhere. People are running to-and-fro seeking whatever they may seek. Most anybody can get a following. No matter what they teach or think, somebody will listen to them. And it's a day that the prop
+\hich\af29\dbch\af28\loch\f29 h\hich\af29\dbch\af28\loch\f29 ets spoke of.\line 
+People, when they're hungry, they'll eat from anywhere. If children and people are starving, they'll eat from a garbage can, that once eat from a nice table. But if they are hungry, they'll eat somewhere. So I think real true ministers of th
+\hich\af29\dbch\af28\loch\f29 e\hich\af29\dbch\af28\loch\f29  Gospel ought to be up and going, ought to be giving the people the right things: meat in due season. 
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-16}{\f29 \hich\af29\dbch\af28\loch\f29  Now, this subject of mine of... As I have testified to you that I am not a preacher, I just merely have the gift of Divine healing, which I humbly s
+\hich\af29\dbch\af28\loch\f29 ay, it comes from God. I had nothing to do with it coming. I was--it was foreordained of God years and years ago. I had nothing to do... }{\cs48\f29\fs18 \hich\af29\dbch\af28\loch\f29 [Blank.spot.on.tape--Ed.]}{\f29 
+\hich\af29\dbch\af28\loch\f29 ... earth that brought it. }{\cs48\f29\fs18 \hich\af29\dbch\af28\loch\f29 [End of record--Ed.]}{\f29 \hich\af29\dbch\af28\loch\f29  
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-17}{\f29 \hich\af29\dbch\af28\loch\f29  This is the keynote to the Scriptures. F\hich\af29\dbch\af28\loch\f29 
+aith, he that cometh to God must believe that He is, and a Rewarder of those who diligently seek Him. Without faith, it is impossible to please God.\line 
+This world was made by faith. Things were shaped in existence by faith. God just seen that dew drop hangin\hich\af29\dbch\af28\loch\f29 g\hich\af29\dbch\af28\loch\f29 
+ out there in the air, that whatever you want to call it, and He just spake, and said, "Let there be light." And there was light. And then He brought the land forth and dried it off and so forth. That was all done by an act of faith with God. The whole wo
+\hich\af29\dbch\af28\loch\f29 r\hich\af29\dbch\af28\loch\f29 ld is made by faith.\line 
+You're here tonight by faith. Many of you told your employer you'd be back tomorrow to work. How do you know you will? You told your wife, "I'll be home after service." How do you know you will? You told the person maybe to come, a ca
+\hich\af29\dbch\af28\loch\f29 b\hich\af29\dbch\af28\loch\f29 , to pick you up at eleven o'clock. How do you know you'll be here? You may be in eternity before eleven o'clock tonight. See? But it's all by faith. Everything's by faith. 
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-18}{\f29 \hich\af29\dbch\af28\loch\f29  Now, so many people \hich\af29\dbch\af28\loch\f29 
+speak of this subject, faith, and know so little of it. Now, listen friends; I--I love you and I want you to see this. There's so many people speaks of faith doesn't know one principle of faith. Now, you're together, and I--we may never all meet again thi
+\hich\af29\dbch\af28\loch\f29 s\hich\af29\dbch\af28\loch\f29 
+ side of eternity. But I... If I had a place where we could be together, and I could gradually bring the thing up to where you'd be able to see it plainer than what you will now, because many of you are going to think... And you're--probably many will get
+\hich\af29\dbch\af28\loch\f29  \hich\af29\dbch\af28\loch\f29 
+the wrong impression of me tonight. When I'm trying my best to get this to you, and you'll think it's self-exaltation. But it is not, my lovely friends. It's for your benefit if I can just get you to see what--what God has done for you. 
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-19}{\f29 \hich\af29\dbch\af28\loch\f29  Now, some--ma\hich\af29\dbch\af28\loch\f29 ny people come through the line, and they say, "Oh, I have faith to be healed."\line 
+And, friends, when they pass by, I know they haven't enough faith to cure a toothache. That's right. And some of them coming through with cancer, and say, "I have faith to be \hich\af29\dbch\af28\loch\f29 h\hich\af29\dbch\af28\loch\f29 
+ealed," they do not have faith.\line 
+My Scripture lesson tonight said, "Faith is the substance of things hoped for, the evidence of things not seen." See, it's a substance. It's something direct, something that you really have, not something that you imagine, \hich\af29\dbch\af28\loch\f29 s
+\hich\af29\dbch\af28\loch\f29 omething that you think you have; but it's some direct positive act that you have. You see what I mean? 
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-20}{\f29 \hich\af29\dbch\af28\loch\f29  Now, here not long ago... I'll give you a little story of someone who came so you can see what faith is. Faith is a gift of itself. You may have a
+\hich\af29\dbch\af28\loch\f29  portion of it, but there is a gift of faith.\line 
+Just like, some of you people anoint the sick and pray for them and you have a result. That isn't a gift of healing; that is a portion of faith. But that isn't a direct gift of healing; for there's only one di\hich\af29\dbch\af28\loch\f29 r
+\hich\af29\dbch\af28\loch\f29 
+ect gift of healing; there's only one direct gift of faith; there's only one direct gift of--of miracles and so forth. There was in the Scripture, the apostles had it. And many--they done mighty works of... Philip and all of them... But that was one gift 
+\hich\af29\dbch\af28\loch\f29 o\hich\af29\dbch\af28\loch\f29 f healing. 
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-21}{\f29 \hich\af29\dbch\af28\loch\f29 
+ Like when we leave the city, as many people say... I've noticed in some places after I left some of them, maybe fifteen or twenty say, "The Lord gave me the gift of healing." Well, God bless their hearts.\line Some of them say, "Brother Branham
+\hich\af29\dbch\af28\loch\f29 , will you lay your hands on me that I can get the gift of healing."\line 
+I wished I could. I'd have every one of you pass right down this line here tonight. And I'd say there wouldn't be a sick person left in Oakland in a few weeks from now. That's right. But\hich\af29\dbch\af28\loch\f29  \hich\af29\dbch\af28\loch\f29 
+it's not mine to give. It's... }{\cs48\f29\fs18 \hich\af29\dbch\af28\loch\f29 [End of record--Ed.]}{\f29 \hich\af29\dbch\af28\loch\f29  
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-22}{\f29 \hich\af29\dbch\af28\loch\f29  "Faith is the substance of the things hoped for, the evidence of things not seen." Let's take that part of the Scripture, "the substance of things hoped for."
+\line There's \hich\af29\dbch\af28\loch\f29 three things: hope, charity, and faith. Is that right? Now, hope is one element; faith is another element; and charity is another element. Charity is love.\line 
+I've seen many people come by, lovely people, real Christians, but didn't have enough faith to be h\hich\af29\dbch\af28\loch\f29 e\hich\af29\dbch\af28\loch\f29 aled, and some sinner pass by and has the faith to be healed. See?\line 
+It's another element altogether. It's not how well you serve God; it's a--an element that you possess yourself. Now, I want you to see this because it's for your benefit. 
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-23}{\f29 \hich\af29\dbch\af28\loch\f29  Here a few w\hich\af29\dbch\af28\loch\f29 
+eeks ago, a few months ago it was, I was home for just a few nights. And my, there's about three hundred people had gathered in the home and around the yards that day, and about two o'clock in the morning the wife got me into bed. And while I was just lay
+\hich\af29\dbch\af28\loch\f29 i\hich\af29\dbch\af28\loch\f29 ng across the bed, my, my legs were cramping and hurting...\line I was laying down there, and I heard a machine drive up out front. And I said, "Oh, my, there's someone coming."\line 
+And she said, "Well, listen, I'll go to the door."\line And while she was on her road t\hich\af29\dbch\af28\loch\f29 o\hich\af29\dbch\af28\loch\f29  the door I went to sleep.\line 
+And I could hear someone saying, "Well, the baby has been sick for a long time." And a little baby was crying till it didn't even sound like it was human, something like, you that's reading in my little book, "The Heavenly Visio
+\hich\af29\dbch\af28\loch\f29 n\hich\af29\dbch\af28\loch\f29 "... How many has read it in--in the audience, let's see, "Heavenly Vision"? You see, something on that order.\line 
+The little bitty fellow, it was about eight, ten weeks old. And it was--it had never stopped crying. And the mother said, "Well, I've--I... We'v\hich\af29\dbch\af28\loch\f29 e\hich\af29\dbch\af28\loch\f29 
+ traveled all day and all night to get here." Said, "We seen where he--Brother Branham was to be home and we brought the baby." 
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-24}{\f29 \hich\af29\dbch\af28\loch\f29  My, the poor little thing, I couldn't sleep. And I went out there and prayed for the little baby. And I set down, and ther\hich\af29\dbch\af28\loch\f29 
+e in the chair just a moment, was talking to the mother. They'd come from way up in northern Ohio. And while we were setting there, friends, the little fellow ceased to cry. It'd been crying day and night now. Oh, that's worth more to me than all the mone
+\hich\af29\dbch\af28\loch\f29 y\hich\af29\dbch\af28\loch\f29  in the world.\line 
+And there, I looked over, and the mother started crying, great big tears dripping off on the little blanket, the old dad setting there with a pair of overalls on, probably spent a good portion of his living to come, come over and put his ar
+\hich\af29\dbch\af28\loch\f29 m\hich\af29\dbch\af28\loch\f29  around me, said, "I love you, Brother Branham."\line My, some of the best hearts that ever beat is under an old blue shirt. That's right. 
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-25}{\f29 \hich\af29\dbch\af28\loch\f29  It ain't the way you dress; it's what's on the inside of you. (That's right.) And there, I knew he meant that. That \hich\af29\dbch\af28\loch\f29 
+wasn't hypocrisy. He meant that from his heart; he loved me. And I looked at the little baby, and the mother, when I went in the other room she was... }{\cs48\f29\fs18 \hich\af29\dbch\af28\loch\f29 [Blank.spot.on.tape--Ed.]}{\f29 
+\hich\af29\dbch\af28\loch\f29  it just smiling at us. And, friends, that's worth every bit of it, isn't it? Th\hich\af29\dbch\af28\loch\f29 
+at's right. That's worth all of it. And then they said... My wife said, "Well, I'll fix you coffee or something for you if you wish."\line And they said, "Well, we'll just wait a little while.\line And my wife said, "Well, now..."\line 
+"I'll tell you what," I said, "I'l\hich\af29\dbch\af28\loch\f29 l\hich\af29\dbch\af28\loch\f29  lay down on this chair, and you let the mother and them go to bed and sleep for a little bit." 
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-26}{\f29 \hich\af29\dbch\af28\loch\f29  And so we put them in a bed, and I was setting in a chair to try to rest till daylight. And just then another car drove up and a young man come up to the 
+\hich\af29\dbch\af28\loch\f29 door. And he said, "Brother Branham?"\line I said, "Yes." I was trying to get awake.\line He said, "I know you're very sleepy."\line I said, "Yes."\line 
+Said, he told me, said, "I'm from Morengo, Indiana." He said, "My little sister is dying with appendicitis; she's to be op\hich\af29\dbch\af28\loch\f29 e\hich\af29\dbch\af28\loch\f29 rated on this morning." Said, "Will you come to her?"\line 
+Well, that... }{\cs48\f29\fs18 \hich\af29\dbch\af28\loch\f29 [Blank.spot.on.tape--Ed.]}{\f29 \hich\af29\dbch\af28\loch\f29 
+... and in my old jalopy Ford, that's waiting for me over at Houston, all the side of it's beat out with my knees, where I'd hit my knees like that trying to stay \hich\af29\dbch\af28\loch\f29 
+awake while I would go and pray for the sick people. I've left one meeting, going to the other one. And get out into the field with my hand out the door of the car, saying, "God bless you, God bless you," sound asleep.\line 
+I never will forget one day coming f\hich\af29\dbch\af28\loch\f29 r\hich\af29\dbch\af28\loch\f29 om Houston, I... There was... I'd hear a car blowing, and I knew I was on the wrong side of the road, only I couldn't get awake. You see?\line 
+I'd set there fifteen days and nights praying for the sick people and seeing wonderful things. But, oh, my, friends, \hich\af29\dbch\af28\loch\f29 i\hich\af29\dbch\af28\loch\f29 f my life will be short, maybe somebody else can stay because of my going. 
+
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-27}{\f29 \hich\af29\dbch\af28\loch\f29 
+ And this man said, young fellow, he said, "My little sister..." He told me he belonged to a church. I will not call the name here, because it's not expedient; and I don't crit\hich\af29\dbch\af28\loch\f29 
+icize anybody's religion. And anyhow, this church is my arch enemy. They claim that there's no such a thing as Divine healing and so forth.\line 
+And I was at my church, the Milltown Baptist church, where I went to hold a revival. Many of you seen in the little\hich\af29\dbch\af28\loch\f29  \hich\af29\dbch\af28\loch\f29 book called, "Jesus Christ The Same Yesterday And Forever."\line 
+A little girl in there that weighed forty-seven pounds, twenty-seven years old, weighed forty-seven pounds, by the name of Georgie Carter, with tubercular; and she belonged to this same church. A\hich\af29\dbch\af28\loch\f29 n
+\hich\af29\dbch\af28\loch\f29 d she said the people through the neighborhood said, "Let..." She'd been on her back now for nine years and six months. And said, "Let her get well and we'll believe it."\line 
+But, my friends, she's my piano player in the Milltown Baptist church tonight. But d\hich\af29\dbch\af28\loch\f29 o\hich\af29\dbch\af28\loch\f29  they believe? No, even one raised from the dead, they don't believe in it. 
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-28}{\f29 \hich\af29\dbch\af28\loch\f29 
+ And by the way, a man that laid in the morgue, pronounced dead by three doctors when I went in to where he's at, he's driving a Pennsylvania locomotive tonight, and still the\hich\af29\dbch\af28\loch\f29 
+y don't believe. That's true. That is true. They won't believe.\line 
+The hour is here where people's eyes are so blinded with the cares of the world and the other cares, till they don't even see God. He's right in their midst many times and they pass by like i\hich\af29\dbch\af28\loch\f29 t\hich\af29\dbch\af28\loch\f29 
+ was in the days of Christ, and they missed seeing Him. 
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-29}{\f29 \hich\af29\dbch\af28\loch\f29  And now, this lady--or this man, rather, he said, "Will you go?"\line I said, "Yes, sir."\line He said, "Maybe I'd better take you."\line 
+I said, "No, I'll try to stay awake."\line And the wife started crying; she \hich\af29\dbch\af28\loch\f29 said, "Now, honey, you'll fall asleep somewhere."\line 
+I said, "No, I'll be all right, sweetheart." And I got in my old car and started trailing down. I said, "I'll watch him." Going down I was pinching my--and biting my fingers, and I'd take spit and wipe my \hich\af29\dbch\af28\loch\f29 e
+\hich\af29\dbch\af28\loch\f29 yes and everything else, trying to keep awake. I know that sounds very unsanitary, but I--I was doing anything to try to get to the child. 
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-30}{\f29 \hich\af29\dbch\af28\loch\f29  And we drove about eight miles through an old road way up into the rural district, and there lay a young girl s\hich\af29\dbch\af28\loch\f29 
+omething about eight--seventeen or eighteen years old. And she was lying there in a terrible condition. When I walked into the room, she was real nervous, and she said, "Oh, and you're Brother Branham?" She said...\line I said, "Do you believe sister?"
+\line She sai\hich\af29\dbch\af28\loch\f29 d\hich\af29\dbch\af28\loch\f29 
+, "Oh, yes, I believe." Said, "I--I--I believe." Said, "I don't care what my church says." She belonged to the same church that this Georgie Carter did. Said, "I don't care what my church says. I believe. I believe."\line 
+And so they, the man, the father come,\hich\af29\dbch\af28\loch\f29  \hich\af29\dbch\af28\loch\f29 
+met me and shook my hand. And he--he took me around to the bed. He said, "Sir," said, "she's going to be operated on this morning." And said, "She's... We're afraid she can't make the trip." Said, "We got to take her all the way to New Albany, Indiana."
+\line T\hich\af29\dbch\af28\loch\f29 h\hich\af29\dbch\af28\loch\f29 
+at was about nearly forty miles to the first hospital. And she had about eight miles through rural, just, oh, my, just a fence row, coming down like that where wagons would travel almost to come down. And well, I--I assisted and helped in operations and..
+\hich\af29\dbch\af28\loch\f29 .\hich\af29\dbch\af28\loch\f29  
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-31}{\f29 \hich\af29\dbch\af28\loch\f29  }{\cs48\f29\fs18 \hich\af29\dbch\af28\loch\f29 [Blank.spot.on.tape--Ed.]}{\f29 \hich\af29\dbch\af28\loch\f29 
+ ... and it was... I knew that that child could not go to the hospital. She would die before she got there. There may be medical doctors setting present now, usually there is doctors come to listen in on the service. And her\hich\af29\dbch\af28\loch\f29 
+ side had swollen up and was turning red, the appendix were ruptured and were ready to burst at any time.\line 
+Now, many time I've went in with Doctor Adair, the doctor of our city, one that comes to my church. And we had the operation and cut the--the incisio\hich\af29\dbch\af28\loch\f29 n\hich\af29\dbch\af28\loch\f29 
+ open. And when they'd burst on the table, and--and sometimes take the bowels out and spray them off and wash them out, and keep them from peritonitis from setting in, and cut it a kind of V-shape and put a tube in there to drain. Sometimes they'd get wel
+\hich\af29\dbch\af28\loch\f29 l\hich\af29\dbch\af28\loch\f29 .\line But that child couldn't... That appendix would've bursted and she'd a had thirty miles or more yet to drive. And she would've died before she got there. 
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-32}{\f29 \hich\af29\dbch\af28\loch\f29  Now, friends, the girl was looking to me, and she said, "Oh, Brother Branham, you think I'll li\hich\af29\dbch\af28\loch\f29 ve?"\line 
+And I said, "I believe you will." But she said... I said, "Now, do you believe?"\line She said, "Oh, yes, yes, I believe. Sure, I don't care what my church says. I--I believe. Georgie Carter got well." Said, "I'll get well too. I'm scared of the operation
+\hich\af29\dbch\af28\loch\f29 ,\hich\af29\dbch\af28\loch\f29 " (See?), just like that.\line Some of the neighbors had gathered in. 
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-33}{\f29 \hich\af29\dbch\af28\loch\f29 
+ Now, look, here's where I want to get to you people now on this. The girl thought she believed, just like many of you come down this line tonight. You think you believe, but she did not\hich\af29\dbch\af28\loch\f29  believe.\line 
+Now, many of you have female trouble, and maybe it's just something another that--maybe a ulcered stomach. And you--you have to take your... You can have a little time.\line But that girl, that had to be a emergency. Her life was at stake. Something 
+\hich\af29\dbch\af28\loch\f29 h\hich\af29\dbch\af28\loch\f29 ad to be done. So I said, "Sister, I do not mean to hurt your feelings, but you--you do not believe."\line 
+Now, it's just like the brother says here, when you have your head up, no matter where you are in the building... I don't say this, friends, you remember\hich\af29\dbch\af28\loch\f29 ,\hich\af29\dbch\af28\loch\f29 
+ I'm telling you this just for your good. It's not I, but God. I know when you got your head up; I feel it. Whether you're behind me, where you are... Like one last night setting with her head up behind me. I knew it all the time. And so, that's between G
+\hich\af29\dbch\af28\loch\f29 o\hich\af29\dbch\af28\loch\f29 d and the individual. You see? I can't help that. They--they hinder the people. Many times things are hindered. 
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-34}{\f29 \hich\af29\dbch\af28\loch\f29  So then this girl, she said, "Oh, I believe, I believe, Brother Branham." Well, she thought she believed.\line Now, look, she had hope. But fai
+\hich\af29\dbch\af28\loch\f29 th is the substance of things hoped for, the evidence of things not seen. You see what I mean?\line 
+Now, I said, "Sister, an ordinary case," I said, "I could have a little time and let you have time, maybe to take about that much faith and go out with it. But \hich\af29\dbch\af28\loch\f29 y\hich\af29\dbch\af28\loch\f29 
+ou've got to have immediate attention, right now. For I'm going to be honest with you. You'll not live to see the hospital."\line 
+Now, the parents didn't appreciate that very much at that time. But I'd rather be honest with you, let you know the truth... Would\hich\af29\dbch\af28\loch\f29 n\hich\af29\dbch\af28\loch\f29 
+'t you rather I'd be honest with you? And remember, friends, I'm not wrestling with flesh and blood; it's spiritual power. I must be honest before Almighty God. See? And because I realize the danger of my own life, and not only mine, but yours. And so she
+\hich\af29\dbch\af28\loch\f29  \hich\af29\dbch\af28\loch\f29 said she would--she believed, but she did not.\line 
+"Well," I said, "now, look." Now, I want you to notice this, and I want you to be real careful now and take up every word so you can divide it, of a little something that God permitted there. And I'll see if \hich\af29\dbch\af28\loch\f29 y
+\hich\af29\dbch\af28\loch\f29 ou've got faith. I said, "Sister, you do not have faith."\line She said, "Oh, Reverend Branham, I have faith to believe anything." 
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-35}{\f29 \hich\af29\dbch\af28\loch\f29  }{\cs48\f29\fs18 \hich\af29\dbch\af28\loch\f29 [End of record--Ed.]}{\f29 \hich\af29\dbch\af28\loch\f29 
+... If you have faith, I want to ask you and show you, rather, that--that you do not have faith. Now, li\hich\af29\dbch\af28\loch\f29 
+sten and catch every word of it. Hanging in the room from a chandelier was a string, and on the end of that string was a little bracelet, and it had... It was a white bracelet with little red sets in it where a child probably been playing with it, you kno
+\hich\af29\dbch\af28\loch\f29 w\hich\af29\dbch\af28\loch\f29 , swinging it in the room. Maybe some of you have your own babies to be pacified that way, swinging something around like that to play with it, to amuse them. 
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-36}{\f29 \hich\af29\dbch\af28\loch\f29  And I seen that little bracelet hanging down. It was... I said to the young lady; I said, "\hich\af29\dbch\af28\loch\f29 
+How far are you away from that bracelet?"\line She said, "Prob--approximately fifteen feet."\line 
+I said, "Now, all you other adults here, all you people, just turn your backs right around to me." I said, "Now, there's nothing going to be done to hurt anyone. I jus\hich\af29\dbch\af28\loch\f29 t\hich\af29\dbch\af28\loch\f29 
+ got to speak to this girl, because she's got to catch the idea now."\line 
+And that's the reason I'm getting into these things with you tonight. We got two more nights, and something's got to be done. You see? Now, I don't want you to go away and say anything \hich\af29\dbch\af28\loch\f29 w\hich\af29\dbch\af28\loch\f29 
+rong about this, because you might have to answer at judgment for it. And so I said, "Something has to be done immediately." And I said, "Now, you parents, you just turn your back."\line 
+And some of the neighbors was setting up with her, and they all turned th\hich\af29\dbch\af28\loch\f29 e\hich\af29\dbch\af28\loch\f29 ir backs to me and turned their chairs around.\line 
+I said to the young lady; I said, "Now, you tell me you've got faith to believe for all things."\line She said, "I have, sir."\line "How long has it been since you've eaten?"\line And she said, "About three days," said, "I \hich\af29\dbch\af28\loch\f29 c
+\hich\af29\dbch\af28\loch\f29 an't even keep water on my stomach." And you know what appendix is and fever on her also. 
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-37}{\f29 \hich\af29\dbch\af28\loch\f29 
+ And I said, "Now, if you believe with all your heart, and you prove to me now that you've got faith... Now, you look right directly at that bracelet," and it ha\hich\af29\dbch\af28\loch\f29 
+nging there in mid-air, "and you make that bracelet swing around and around in the room. Then you make it swing back and forth in the room, and then stop it, and I'll believe you have faith."\line 
+She said, "Oh, Brother Branham," said, "my, why ask me somethin\hich\af29\dbch\af28\loch\f29 g\hich\af29\dbch\af28\loch\f29  like that?"\line I said, "I wanted to see if you had faith." I said, "Jesus said, 'All things are possible if you believe.'" 
+
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-38}{\f29 \hich\af29\dbch\af28\loch\f29  Now, that's just pure faith, friends. Magicians use it many times to play pranks and so forth, burst glasses and things. It will,
+\hich\af29\dbch\af28\loch\f29 
+ if you believe. But I'm trying to base your--the thought on faith so you know what I'm talking of. And I want you to set still now so you'll catch this. Wake yourself up, so when I get through with it you'll know what it's all about. 
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-39}{\f29 \hich\af29\dbch\af28\loch\f29  Then she said, \hich\af29\dbch\af28\loch\f29 "Why, Brother Branham, no one could do that."\line I said, "Oh, yes, anyone can that believes."\line 
+And she said, "Well, I don't believe that anyone could do that."\line I said, "I thought you said you believed for all things." See how she was caught right there. I sai\hich\af29\dbch\af28\loch\f29 d\hich\af29\dbch\af28\loch\f29 
+, "You said you believed all things. I want you to prove it."\line And she said, "I don't believe there's anyone can do that; that's material, Brother Branham." She said, "Could you do it?"\line I said, "Yes, ma'am."\line 
+And she said, "Well, could I see it done?"\line I sai\hich\af29\dbch\af28\loch\f29 d\hich\af29\dbch\af28\loch\f29 , "If you desire."\line And she said, "I desire." 
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-40}{\f29 \hich\af29\dbch\af28\loch\f29 
+ Then of course, putting my mind on it, and having her to watch that and not me. As many times in a meeting, I'll take any cross-eyed child you've got in this meeting, you bring it up here without even pray\hich\af29\dbch\af28\loch\f29 
+ing for it, and just let me look at it straight in the eyes like that, I'll make its eyes come straight. But when I turn my head... }{\cs48\f29\fs18 \hich\af29\dbch\af28\loch\f29 [End of record--Ed.]}{\f29 \hich\af29\dbch\af28\loch\f29  
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-41}{\f29 \hich\af29\dbch\af28\loch\f29  And I used it for an illustration. She went back, she thought she wasn't going to get back throug\hich\af29\dbch\af28\loch\f29 
+h the line, taking two or three days before she got back. But when she come that time, she said, "Brother Branham, you told me to get back in line."\line 
+There's hundreds of people piling everywhere, standing in the... way early in the morning, coming in soaki\hich\af29\dbch\af28\loch\f29 n\hich\af29\dbch\af28\loch\f29 
+g wet from out there, coming in to be prayed for. And then when God healed her eyes there, both eyes come straight and she was normal, went out rejoicing. You see? That's the difference from your faith and the faith of God... 
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-42}{\f29 \hich\af29\dbch\af28\loch\f29  Now, then of course, fas\hich\af29\dbch\af28\loch\f29 
+tening my eyes to that bracelet, which you can yourself, if you won't doubt it in your heart, and it started moving around. And then it moved back and forth, around, crossways, and stopped it.\line 
+She said, "Brother Branham," she said, "that's spiritualism."\line \hich\af29\dbch\af28\loch\f29 I\hich\af29\dbch\af28\loch\f29  said, "I--I thought maybe you'd say something like that."\line 
+My, isn't it strange how people that profess they know God, and know so little about Him. Isn't that right?\line She said, "You know, we belong to the Church of Christ." Excuse me, I didn't mean to say\hich\af29\dbch\af28\loch\f29  
+\hich\af29\dbch\af28\loch\f29 that. Excuse me, Church of Christ people, I didn't mean to say that. See? Anyhow, said, "We speak where the Bible speaks and silent where the Bible's silent."\line 
+You know, you have that slogan. I've questioned that a few times.\line I said, "All right."\line She said,\hich\af29\dbch\af28\loch\f29  \hich\af29\dbch\af28\loch\f29 "There's no such a thing can be showed in the Bible of anything like that."\line 
+I said, "I--I thought that's what you would say." I said, "Sure, that's in the Bible."\line And she said, "Well, I never... I don't believe it."\line "All right," I said, "You don't believe\hich\af29\dbch\af28\loch\f29  \hich\af29\dbch\af28\loch\f29 it?"
+\line She said, "No, you show me where that's at in the Bible." 
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-43}{\f29 \hich\af29\dbch\af28\loch\f29 
+ I said, "One day Jesus passed by a tree, He wanted to find some fruit on it. There was no fruit on it. He put a curse on it, and the tree begin to wilt. And when they passed by at noon th\hich\af29\dbch\af28\loch\f29 
+e tree was wilting down. Peter remarked and said how quick the tree was wilted. He said, 'If you would say in your heart for this tree to be plucked up and cast into the sea and wouldn't doubt it, it would obey you.'" Did He say it? And I said, "He said, 
+\hich\af29\dbch\af28\loch\f29 '\hich\af29\dbch\af28\loch\f29 
+If you'd say to this mountain, 'Be moved,' and doubt it not in your heart, by and by it would come to pass.'" Did He say it? Sure He did. I said, "I know your unbelieving pastor, trying to justify his unbelief, said that was a mountain of sin. I--I went t
+\hich\af29\dbch\af28\loch\f29 o\hich\af29\dbch\af28\loch\f29  school myself. He was kneeling by Mount Olives. It was Mount of Olives. If you'd say in your heart for it to be moved and don't doubt it..." I said, "How much more faith?"\line 
+And He said, "If you had faith, size of a mustard seed..."\line I said, "Now, if the fa\hich\af29\dbch\af28\loch\f29 i\hich\af29\dbch\af28\loch\f29 
+th the size of a mustard seed would move that mountain, how much more smaller faith would you have to have just to move that bracelet?" 
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-44}{\f29 \hich\af29\dbch\af28\loch\f29  You see what I mean? Now, I've often wondered why He said mustard seed. I might drop this thought. Mustard seed is\hich\af29\dbch\af28\loch\f29 
+ the smallest among all seed. That's right. But there isn't nothing will mix with mustard seed. It's all mustard. You can't mix it with kale or nothing and make it grow. It's all mustard. If you've got that much faith, all faith, not mixed up with somethi
+\hich\af29\dbch\af28\loch\f29 n\hich\af29\dbch\af28\loch\f29 g else, ask what you will; it'll be given to you. But it can't be wavering; its got to be genuine mustard, if you know what I'm speaking of. All right, and I said, "How much more would it take?"
+\line "Why," she said, "Looky here, I want to ask you something." \hich\af29\dbch\af28\loch\f29 S\hich\af29\dbch\af28\loch\f29 he said, "Did God move that or did the devil move that?"\line I said, "Neither one moved that."\line 
+She said, "Then how in the world did it move?"\line I said, "I moved it."\line She said, "Well, you're fifteen feet or better away from it."\line I said, "No, its my faith that mo\hich\af29\dbch\af28\loch\f29 v\hich\af29\dbch\af28\loch\f29 
+ed it." See? If you ask anything and don't doubt it... See what I mean? 
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-45}{\f29 \hich\af29\dbch\af28\loch\f29  }{\cs48\f29\fs18 \hich\af29\dbch\af28\loch\f29 [Scratch in record--Ed.]}{\f29 \hich\af29\dbch\af28\loch\f29 
+... faith, but you're a free moral agent; you're a human being. You can resent it in your heart, and I couldn't touch you if you had to. Jesus could not d\hich\af29\dbch\af28\loch\f29 o many mighty works because of why? }{\cs48\f29\fs18 
+\hich\af29\dbch\af28\loch\f29 [Congregation says, "Unbelief."--Ed.]}{\f29 \hich\af29\dbch\af28\loch\f29 
+ Correctly. See how little people know about--how little people know about faith? It's amazing, friends, to find out how little people know about it. They talk so much of it and yet k\hich\af29\dbch\af28\loch\f29 now so little of it. 
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-91}{\f29 \hich\af29\dbch\af28\loch\f29  Friends, they just fall from side to side. Oh, how I wish you could, you--I know you do. God bless your hearts. I just got confidence to believe you have.
+\line Let's all sing now, while the band plays and all, "Only Believe." Everyone\hich\af29\dbch\af28\loch\f29  now, lift your voices highly. Come on now.}{\i\f29 
+\par }\pard\plain \ql \li400\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin400\itap0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\i\f29 Only believe, Only believe
+\par All things are possible,
+\par }\pard \ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 {\f29 (That's all right, I'll back under the shadow in behind the microphone...?... I just get right on through here.)}{\i\f29 
+\par }\pard \ql \li400\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin400\itap0 {\i\f29 Only believe
+\par All things are possible
+\par Only...
+\par }\pard\plain \s46\ql \li0\ri0\sb100\sa100\sbauto1\saauto1\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs24\cf1\lang1033\langfe1033\loch\af28\hich\af28\dbch\af28\cgrid\langnp1033\langfenp1033 {\cs47\f1\fs18\cf18\super 
+\hich\af1\dbch\af28\loch\f1 E-92}{\f29 \hich\af29\dbch\af28\loch\f29 
+ Just a moment now. You believe God is in our midst tonight? Do you believe it? You believe that He's sent to you people who's cried for deliverance? You believe He sent healing to you? You believe it with all your hearts? Then let's sing this with our
+\hich\af29\dbch\af28\loch\f29  hands over our hearts saying...}{\i\f29 
+\par }\pard\plain \ql \li400\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin400\itap0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\i\f29 Lord, I believe, Lord, I believe
+\par All things are possible, Lord I believe,
+\par Lord I believe, Oh, Lord, I believe,
+\par All things are...
+\par }\pard\plain \s46\ql \li0\ri0\sb100\sa100\sbauto1\saauto1\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs24\cf1\lang1033\langfe1033\loch\af28\hich\af28\dbch\af28\cgrid\langnp1033\langfenp1033 {\cs47\f1\fs18\cf18\super 
+\hich\af1\dbch\af28\loch\f1 E-93}{\f29 \hich\af29\dbch\af28\loch\f29  }{\cs48\f29\fs18 \hich\af29\dbch\af28\loch\f29 [End of record--Ed.]}{\f29 \hich\af29\dbch\af28\loch\f29 ... hour has come. We believe that You're soon coming. Thou has sent
+\hich\af29\dbch\af28\loch\f29 
+ Thy gift to glorify Thy holy Child. He's stretching forth His holy hand to heal by the agency of His church. Help the people tonight here. While the music is playing sweetly and softly, may the people believe. Father, if I've said anything wrong, forgive
+\hich\af29\dbch\af28\loch\f29  \hich\af29\dbch\af28\loch\f29 
+me. I pray that You'll let the people understand that this is the time that You have testified. And may they know that Thy servant didn't come because of my desire; it was Your will that I should come, Father. And may they lay every skeptic mind aside, ev
+\hich\af29\dbch\af28\loch\f29 e\hich\af29\dbch\af28\loch\f29 ry skeptical thought and come tonight and be healed. For we ask this in Jesus' Name and for His glory. Amen.\line 
+Now, you laid aside every skeptical thought? Have you done forgot all about your skeptic idea? You're going to come be healed tonight? Do you beli\hich\af29\dbch\af28\loch\f29 e\hich\af29\dbch\af28\loch\f29 
+ve it? Say "Amen" all that... God bless you, friends. 
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-94}{\f29 \hich\af29\dbch\af28\loch\f29 
+ Now, they're going to take a picture. And I'll tell you what happens to these pictures. I hang them in my room. Every night when I'm home, I pray for them. How many wants me to pray for you when I\hich\af29\dbch\af28\loch\f29 
+ look at this picture? God bless your heart.\line 
+Now, be sure not to miss tomorrow night's service, and the next night, my life's story, the next night I want you to hear. And God bless you now while we stand reverently for a moment; they're going to take the\hich\af29\dbch\af28\loch\f29  
+\hich\af29\dbch\af28\loch\f29 picture. Now, the photographer will tell you what to do. }{\cs48\f29\fs18 \hich\af29\dbch\af28\loch\f29 [Photographer speaks: "If you folks would be seated now, please.--Ed.]}{\f29 \hich\af29\dbch\af28\loch\f29 
+ If that balcony would stand, it'd be so much better, make a much better... Isn't that right, photographer, if they'd stand it'd \hich\af29\dbch\af28\loch\f29 
+make a much nicer picture? Especially in the balcony, is that right? Shows a better picture... All right, the balcony stand. They want the balconies to stand, all around. That's fine....?... in the presence of the...?...\line }{\cs48\f29\fs18 
+\hich\af29\dbch\af28\loch\f29 [The prayer line follows, but Broth\hich\af29\dbch\af28\loch\f29 er Branham steps away from the microphone and it is not all fully understandable, and the text which follows is not complete--Ed.]}{\f29 
+\hich\af29\dbch\af28\loch\f29  
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-95}{\f29 \hich\af29\dbch\af28\loch\f29  By faith Abel offered unto God a more excellent sacrifice than Cain; by this he obtained witness that he was righteous,\hich\af29\dbch\af28\loch\f29 
+ God testifying of his gift. Heavenly Father, I thank Thee for Thy testimony now, testifying of that which Thou has done through our lovely Jesus. May the Angel that spoke to me that night in the room be near Thy servant's side at this time to confirm the
+\hich\af29\dbch\af28\loch\f29  \hich\af29\dbch\af28\loch\f29 
+Word with many signs and wonders following. We realize that Satan is...?... And may many people be healed tonight, and may their faith be lifted up at this time to believe the testimony. And may they be healed of all manner of diseases. Make every spirit 
+\hich\af29\dbch\af28\loch\f29 s\hich\af29\dbch\af28\loch\f29 ubject to Thy servant; for the glory of God we ask it in the Name of Jesus Christ. Amen. 
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-96}{\f29 \hich\af29\dbch\af28\loch\f29  Now...?... God's will is to make her well...?... just before the...?... tormenting...?... sister. I adjure thee by Jesus...?...\line 
+Almighty God, I pray that You'll \hich\af29\dbch\af28\loch\f29 bless our sister who is suffering and may she at this...?... realize that it's...?... people Thou will testify of Thy gift. Come out of her, thou demon, in the Name Jesus Christ.\line 
+Now, how can you...?... You believe God's told you...?... You believe with a\hich\af29\dbch\af28\loch\f29 l\hich\af29\dbch\af28\loch\f29 
+l your heart, sister? Dear God, it's impossible for her not to be healed, and she says she believes with all of her heart. And You told me if I'd get the people to believe me, that You have sent for this purpose and would be sincere in prayer, that no dis
+\hich\af29\dbch\af28\loch\f29 e\hich\af29\dbch\af28\loch\f29 
+ase could stand before the prayer. O God, more than eleven states have I testified of Thy gift. And now, I pray, Father, that You'd grant...?... our sister may she be numbered with those that have faith. Come out of her, thou...?... 
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-97}{\f29 \hich\af29\dbch\af28\loch\f29  }{\cs48\f29\fs18 \hich\af29\dbch\af28\loch\f29 [End of record--E\hich\af29\dbch\af28\loch\f29 d.]}{\f29 \hich\af29\dbch\af28\loch\f29 
+...?... Heavenly Father, I'm thinking of overseas how You worked with these lovely saints...?... How that You...?... humble himself to believe God... And I pray that You would bless, our dear brother, as he near...?... He's in need...?... Please, O God,
+\hich\af29\dbch\af28\loch\f29  have mercy upon him. Come out of him, thou demon, in the Name Jesus Christ...?... Do you believe now with all heart?...?...\line 
+Come...?... That's that the truth. You want be well, don't you? You believe that God hears Brother Branham's prayer? All right.\line He\hich\af29\dbch\af28\loch\f29 a\hich\af29\dbch\af28\loch\f29 
+venly Father, as this lovely little girl is...?... little blues eyes looking up towards the...?... and smiling...?... faith to believe that she's going to receive that which she's asked for. And this vibration...?... Be merciful to her, Father. Thou demon
+\hich\af29\dbch\af28\loch\f29 ,\hich\af29\dbch\af28\loch\f29  come out of her in the Name of Jesus Christ.\line ...?... my heart...?... Our heavenly Father, be merciful, a lovely little girl is suffering tonight, and Thou are here to make... }{
+\cs48\f29\fs18 \hich\af29\dbch\af28\loch\f29 [End of record--Ed.]}{\f29 \hich\af29\dbch\af28\loch\f29  
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-98}{\f29 \hich\af29\dbch\af28\loch\f29  You believe...?... \hich\af29\dbch\af28\loch\f29 
+Heavenly Father, be merciful to our sister who's suffering...?... Thou knowest all...?... Oh...?... to realize that almighty God has...?... Lord, and He's testifying of His...?... Thou demon...?... to leave her...?... in the Name of Jesus Christ. Amen.
+\line De\hich\af29\dbch\af28\loch\f29 a\hich\af29\dbch\af28\loch\f29 
+r God...?... I believe what they...?... I pray, Father, tonight for my dear brother who's suffering, Satan's trying to take his life. Bless him, dear God...?... Come out of him, thou demon, in the Name of Jesus Christ...?... up in the balconies, keep your
+\hich\af29\dbch\af28\loch\f29  \hich\af29\dbch\af28\loch\f29 head down, please. That left him and then went right back on him again. And I knew there's someone had their head up. Don't do that...?...\line 
+Now, just a moment...?... Bow your head and believe with all your heart.\line Heavenly Father, Thou hast promised...?... \hich\af29\dbch\af28\loch\f29 t\hich\af29\dbch\af28\loch\f29 
+o heal the people. I feel that the great messenger, the healing Angel of God standing near the pulpit at this time. Therefore with all the faith that Thou has...?... because my brother's in...?... how this demon who's come to send him to a premature grave
+\hich\af29\dbch\af28\loch\f29 .\hich\af29\dbch\af28\loch\f29  Come out of him and...?... in the Name Jesus Christ...?... Every vibration stopped in my hand...?... Go, God bless you with...?... 
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-99}{\f29 \hich\af29\dbch\af28\loch\f29  }{\cs48\f29\fs18 \hich\af29\dbch\af28\loch\f29 [The words are difficult to understand--Ed.]}{\f29 \hich\af29\dbch\af28\loch\f29 
+...?... If it was it would be vibrating...?... }{\cs48\f29\fs18 \hich\af29\dbch\af28\loch\f29 [Blank.spot.on.tape--Ed.]}{\f29 \hich\af29\dbch\af28\loch\f29  G\hich\af29\dbch\af28\loch\f29 
+o, and believe, my brother...?... all things now?...?... I can see...?... just now. I see you...?... The Bible plainly said...?... if you believe, for all things are possible if you believe...?... Nineteen hundred years has passed; He ascended on high, an
+\hich\af29\dbch\af28\loch\f29 d\hich\af29\dbch\af28\loch\f29  He give gifts to men, and now God is still testifying of His gift. Therefore in obedience to that was commissioned...?... I rebuke this demon; come out of him in the Name of Jesus Christ...?...
+\line Maybe I'll give the audience a rest. Raise your head up. If \hich\af29\dbch\af28\loch\f29 s\hich\af29\dbch\af28\loch\f29 
+ome of you would like to see... How many's heard me explain what vibrations were...?... let's your hands. How many in here understands about how the gift come, the vibration over my hand, let's see your hand. You all see what it is...?... 
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-100}{\f29 \hich\af29\dbch\af28\loch\f29  }{\cs48\f29\fs18 \hich\af29\dbch\af28\loch\f29 [The words\hich\af29\dbch\af28\loch\f29  are difficult to understand--Ed.]}{\f29 
+\hich\af29\dbch\af28\loch\f29 ...?... just this man...?... See those...?... I thought I was...?... this vibration here. See? But it's...?... Now, every one bow your head and pray...?... Now remember, this can go from one to another, so be sure to keep 
+\hich\af29\dbch\af28\loch\f29 your head down...?...\line 
+Heavenly Father, be merciful, God, to our beloved sister, who has a right, Father, tonight to be healed; she's come to claim her God-given privilege of being healed by the Saviour Jesus of Nazareth. Therefore, Father, give Thy servan
+\hich\af29\dbch\af28\loch\f29 t\hich\af29\dbch\af28\loch\f29  faith. May I be able to climb up just now, up into that...?... that faith...?... And now in the Name Jesus Christ I rebuke you, Satan, to leave her...?...\line 
+Please don't raise your heads, friends. Now, it's hindering the lady. This is very--must be a cance\hich\af29\dbch\af28\loch\f29 r\hich\af29\dbch\af28\loch\f29 
+ instead of female trouble, because it's very, very provoked. Now, keep your head down...?... You believe with all your...?... You believe with all of your heart that I'm able to do this through Jesus Christ. You believe that all you have to do is simply 
+\hich\af29\dbch\af28\loch\f29 b\hich\af29\dbch\af28\loch\f29 elieve?...?... there's heads up somewhere, friend. Keep your heads down...?...\line Dear, heavenly Father, be merciful to our... }{\cs48\f29\fs18 \hich\af29\dbch\af28\loch\f29 
+[End of record--Ed.]}{\f29 \hich\af29\dbch\af28\loch\f29  
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-101}{\f29 \hich\af29\dbch\af28\loch\f29  So if there's anything happens on the...?... like that, now, what would be if you had a...?... You see? \hich\af29\dbch\af28\loch\f29 
+I just wonder sometimes. I'd like to your houses, but I...?... back there some person dying wanting me to come on a airplane, charter a...?... One woman calling from over in...?... Missouri, said, hanging on the phone and knelt down at the--by the phone c
+\hich\af29\dbch\af28\loch\f29 r\hich\af29\dbch\af28\loch\f29 ying, begging me to pray...?... to be over the phone like that, not to hang up for her...?... Wanted to charter a plane to come plumb back into Missouri where a little baby was dying...?... }{
+\cs48\f29\fs18 \hich\af29\dbch\af28\loch\f29 [Scratch on the record--Ed.]}{\f29 \hich\af29\dbch\af28\loch\f29 ...?...\line My, it's pathetic, but what ca\hich\af29\dbch\af28\loch\f29 n--what can a person do? It'd make you lose your mind to think...?... }{
+\cs48\f29\fs18 \hich\af29\dbch\af28\loch\f29 [Scratch on the record--Ed.]}{\f29 \hich\af29\dbch\af28\loch\f29 ...?... things like that coming from everywhere.\line 
+I was talking to my wife and she just said it's masses of people and every thing, oh, my. Fifteen hundred let\hich\af29\dbch\af28\loch\f29 ters come in from people in ten days' time to my...?... }{\cs48\f29\fs18 \hich\af29\dbch\af28\loch\f29 
+[Scratch on the record--Ed.]}{\f29 \hich\af29\dbch\af28\loch\f29  
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-102}{\f29 \hich\af29\dbch\af28\loch\f29 
+ Now, this little girl is blind, no vibration in her hand. She's crippled, and 'course that don't make a vibration, just a germ disease. Now, I'll just have to belie\hich\af29\dbch\af28\loch\f29 ve...?... }{\cs48\f29\fs18 \hich\af29\dbch\af28\loch\f29 
+[Scratch on the record--Ed.]}{\f29 \hich\af29\dbch\af28\loch\f29 
+ I believe God will heal her...?... You believe it? Now, remember, I tell...?... I don't want...?... you...?... God will speak to us...?... nights I've got to say to the church maybe give a few testimonies of things.\line N\hich\af29\dbch\af28\loch\f29 
+ow, you keep your head down, and I'll ask God with all my heart that... Remember I'm not healer; it's God.\line 
+Little girl, you love Jesus, don't you, dear? Well, I'm going to ask Jesus to let you have your sight again, make you walk...?... Dear Jesus, the...\hich\af29\dbch\af28\loch\f29 ?\hich\af29\dbch\af28\loch\f29 
+... son, send Your Divine blessings upon the little girl, and these eyes that are now blind, may they see again; may this body that's now crippled be whole again. I pray, Father, that You'll grant it in the Name of Thy beloved Son Jesus Christ. Can..?... 
+\hich\af29\dbch\af28\loch\f29 s\hich\af29\dbch\af28\loch\f29 ee those lights...?... See that? Now, look out there...?... Now, look up towards me...?... See up there? See that? See that shadow over here?\line All right, you can raise your head, audience. }
+{\cs48\f29\fs18 \hich\af29\dbch\af28\loch\f29 [Scratch on the record--Ed.]}{\f29 \hich\af29\dbch\af28\loch\f29 ...?... lens and everything was perfectl\hich\af29\dbch\af28\loch\f29 
+y just covered over with like...?... But there's enough shrinkage... When anything dies it shrinks. Is that right? There's enough shrinkage on the child's eyes until she can see the lights in the room and can tell my hand before her face...?... Look up th
+\hich\af29\dbch\af28\loch\f29 i\hich\af29\dbch\af28\loch\f29 s way. }{\cs48\f29\fs18 \hich\af29\dbch\af28\loch\f29 [Scratch on record--Ed.]}{\f29 \hich\af29\dbch\af28\loch\f29  
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-103}{\f29 \hich\af29\dbch\af28\loch\f29  }{\cs48\f29\fs18 \hich\af29\dbch\af28\loch\f29 [The record is unclear--Ed.]}{\f29 \hich\af29\dbch\af28\loch\f29 
+...?... Let's all say, "Praise the Lord."...?... Oh, my...?... Now, we're going to put her testimony she can see in the paper so you can see. What's her name, sister? Ronna Mae Promise. Wat\hich\af29\dbch\af28\loch\f29 ch it in the paper...?...\line 
+Your cancer's...?... All right. How many believes now? God bless your heart...?...\line Now, here's a deaf mute. There's got a vibration...?... in his hand. All right. Bow your heads, every one. Now, here's the vibration. This I can t
+\hich\af29\dbch\af28\loch\f29 e\hich\af29\dbch\af28\loch\f29 ll which way it...?... }{\cs48\f29\fs18 \hich\af29\dbch\af28\loch\f29 [Blank.spot.on.tape--Ed.]}{\f29 \hich\af29\dbch\af28\loch\f29 
+... put your sign on it...?... have to be faith, just my own faith to believe it. Now, I want you to bow your head everywhere.\line How many in this audience believes that I'm able to do this through Jesus Christ,\hich\af29\dbch\af28\loch\f29 
+ will you raise your hand? All right. All right, if there's that many to believe, you shall see the glory of God. Bow your head everywhere. 
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-104}{\f29 \hich\af29\dbch\af28\loch\f29  }{\cs48\f29\fs18 \hich\af29\dbch\af28\loch\f29 [Someone says he never told Brother Branham what the man's problem was--Ed.]}{\f29 \line 
+\hich\af29\dbch\af28\loch\f29 You don't have to tell us, frien\hich\af29\dbch\af28\loch\f29 
+d. It's known. There's no secrets with God; and He reveals His secrets to His servants. You have seen things that's been done, even habits and things. There was a person passed a few moments ago had a habit. When I looked at the person, I didn't want to c
+\hich\af29\dbch\af28\loch\f29 a\hich\af29\dbch\af28\loch\f29 
+ll it out. Venereal diseases or habits, I don't have to do that. You understand, 'less you want me to. If you ask me, if want to know... Of course as soon as you did, I felt that vibration...?... plugs in his ears.\line 
+Now, bow your head, every one; be real l\hich\af29\dbch\af28\loch\f29 o\hich\af29\dbch\af28\loch\f29 vely and quiet and just be reverent and you shall see God's glory. 
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-105}{\f29 \hich\af29\dbch\af28\loch\f29 
+ Heavenly Father, oh, have to run right into this city and right out. And seemingly it's...?... about the time we get the people to a place where they beginning to believe and things \hich\af29\dbch\af28\loch\f29 
+are being done, then we have leave again. I pray that You'll maybe see fit to send us back this way again.\line 
+And now, standing here before me, this man is standing here, and Satan has plugged up his ears to make him walk before a vehicle or something someti\hich\af29\dbch\af28\loch\f29 m\hich\af29\dbch\af28\loch\f29 
+e and be killed on his feet, oh, trying to do this harm to this poor brother, but we're here to make him whole, Father.\line 
+And now, I have spoke to the people tonight concerning Your visitation of the Angel of God. And may You confirm it now before their eye\hich\af29\dbch\af28\loch\f29 s\hich\af29\dbch\af28\loch\f29  for this faith line will have to start... }{
+\cs48\f29\fs18 \hich\af29\dbch\af28\loch\f29 [Scratch on record--Ed.]}{\f29 \hich\af29\dbch\af28\loch\f29  
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-106}{\f29 \hich\af29\dbch\af28\loch\f29  }{\cs48\f29\fs18 \hich\af29\dbch\af28\loch\f29 [The following portion was on a previously recorded tape with this sermon--Ed.]}{\f29 \line 
+\hich\af29\dbch\af28\loch\f29 At this time we're going to have a trumpet solo by my good friend, Brother F. F. Bosworth: Brother Bo\hich\af29\dbch\af28\loch\f29 sworth.\line }{\cs48\f29\fs18 \hich\af29\dbch\af28\loch\f29 
+[Brother Bosworth gives a solo--Ed.]}{\f29 \line \hich\af29\dbch\af28\loch\f29 
+My, that was very fine, Brother Bosworth. We certainly appreciated that. And I wonder, while you're kind of tuning up there, if we could have a little chorus of "Down At The Cross." It's kind of a favorite to me\hich\af29\dbch\af28\loch\f29 
+. I wonder if you would play it. All right, Brother Bosworth.\line }{\cs48\f29\fs18 \hich\af29\dbch\af28\loch\f29 [Brother Bosworth plays "Down At The Cross."--Ed.]}{\f29 \line \hich\af29\dbch\af28\loch\f29 
+My, that sound like old revival times, a long time ago. Say, we're really enjoying ourself here in this little visit here with Brother and Sist\hich\af29\dbch\af28\loch\f29 
+er McAnally tonight. I wonder, Brother Hooper, if you've got a word you'd just like to say something in the microphone now. }{\cs48\f29\fs18 \hich\af29\dbch\af28\loch\f29 [Brother Hooper says a few words--Ed.]}{\f29 \line \hich\af29\dbch\af28\loch\f29 
+Yes, sir. Brother McAnally is next the best hog hunter in the country. He's the best when I'm\hich\af29\dbch\af28\loch\f29  gone.\line All right. I want to have a word from the wife here. All right, honey, what you going to say?\line }{\cs48\f29\fs18 
+\hich\af29\dbch\af28\loch\f29 [Sister Meda Branham says, "Certainly glad for the privilege I have of being in Arizona, and glad for the privilege I have to meet friends like Brother and\hich\af29\dbch\af28\loch\f29  Sister McAnally."--Ed.]}{\f29 \line 
+\hich\af29\dbch\af28\loch\f29 Brother Bosworth, what do you think about Arizona and these people here?\line }{\cs48\f29\fs18 \hich\af29\dbch\af28\loch\f29 [Brother Bosworth says a few words--Ed.]}{\f29 \line }{\cs48\f29\fs18 \hich\af29\dbch\af28\loch\f29 
+[Brother McAnally comments on hog hunting--Ed.]}{\f29 \line }{\cs48\f29\fs18 \hich\af29\dbch\af28\loch\f29 [Brother Bosworth gives another solo--Ed.]}{\f29 \line \hich\af29\dbch\af28\loch\f29 Brother Mac, everything th\hich\af29\dbch\af28\loch\f29 
+at you done for us since we been down here on this trip. And I trust to Almighty God that someday, we can be back together again. God bless you, brother. I've always wanted to hear your wife's voice. Sister McAnally, may I be many miles away, but when you
+\hich\af29\dbch\af28\loch\f29  \hich\af29\dbch\af28\loch\f29 play this, think of me.\line }{\cs48\f29\fs18 \hich\af29\dbch\af28\loch\f29 [Sister McAnally says a few words--Ed.]}{\f29 \line \hich\af29\dbch\af28\loch\f29 
+Okay, well thanks, Sister McAnally. That was very, very fine. Oh, she's just a little timid woman. I kinda like that though. Brother Bosworth, you got another one on that old trumpet there? We\hich\af29\dbch\af28\loch\f29 
+ just--we just like to hear another one for Brother Mac and them. God bless you, brother. All right, Brother Bosworth.\line }{\cs48\f29\fs18 \hich\af29\dbch\af28\loch\f29 [Brother Bosworth gives another solo--Ed.]}{\f29 \line 
+\hich\af29\dbch\af28\loch\f29 Fine, Brother Bosworth. Thanks a whole lot. Brother Hooper, you got another word to say? Nothi\hich\af29\dbch\af28\loch\f29 ng to say? Honey, oh, my. Mac, tell us something right quick over this microphone, will you?\line }{
+\cs48\f29\fs18 \hich\af29\dbch\af28\loch\f29 [Brother McAnally says a few more words about hunting--Ed.]}{\f29 \line \hich\af29\dbch\af28\loch\f29 Okay, fine. You want a word to say, Brother Bosworth? Say something else.\line }{\cs48\f29\fs18 
+\hich\af29\dbch\af28\loch\f29 [Brother Bosworth speaks for \hich\af29\dbch\af28\loch\f29 a minute and a half--Ed.]}{\f29 \hich\af29\dbch\af28\loch\f29  
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-46}{\f29 \hich\af29\dbch\af28\loch\f29  And then she said, "Well, do you mean to tell me then... What part does that play with God, that part there?"\line 
+I said, "Now, look, there was an Angel came down into the room and told me that way back, back 'fore I was born, w\hich\af29\dbch\af28\loch\f29 
+as foreordained to have a gift of Divine healing. And He came and told me in the room one night that God had sent the gift, and it was a gift of Divine healing for the people. And if I could get the people to believe me (believe me), and would be sincere 
+\hich\af29\dbch\af28\loch\f29 w\hich\af29\dbch\af28\loch\f29 hen I prayed, that nothing would stand before the prayer."\line 
+I said, "Therefore, speaking face to face with this supernatural Being, I believe it with all my heart. And if I can get you to believe me with all your heart, that's what moves God, and then you'\hich\af29\dbch\af28\loch\f29 r
+\hich\af29\dbch\af28\loch\f29 
+e healed. Your faith has saved you." You see what I mean? Your faith to believe has saved you. Not what you worked up and thought in your mind, but what you really know, the very evidence of things not seen. You see what I mean?\line 
+Then the girl said, "Broth\hich\af29\dbch\af28\loch\f29 e\hich\af29\dbch\af28\loch\f29 
+r Branham, I truly know that there's something above where I have ever reached." She said, "I'll try with all my heart, and God have mercy on me." She said, "Let me believe."\line 
+And I took a hold of her hand then. There was a vibration pouring from that rupt\hich\af29\dbch\af28\loch\f29 u\hich\af29\dbch\af28\loch\f29 
+red appendix, had prayer for her and it stopped immediately. I said, "God bless you, sister. Your faith now has saved you." 
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-47}{\f29 \hich\af29\dbch\af28\loch\f29  A few moments later I was setting in the chair, and I went to sleep. Sun was coming up; I had to rest just a little before ret\hich\af29\dbch\af28\loch\f29 
+urning home, 'cause I was afraid I'd break up somewhere on the road, have a wreck. And I was setting there; they called the ambulance, told them there was no need. When I was--was waken up by one of the family, why, the girl was out of bed and had eat a p
+\hich\af29\dbch\af28\loch\f29 i\hich\af29\dbch\af28\loch\f29 
+nt of ice cream. And the--she's never had a knife from that day to this. She was standing on the porch and waved good bye. She said, "Good bye, Brother Branham." Her testimony appeared in the "Herald of Truth" not long ago. Mrs. Edith Wright, at--at Millt
+\hich\af29\dbch\af28\loch\f29 o\hich\af29\dbch\af28\loch\f29 wn, or Depaw, Indiana, that was her there--there. 
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-48}{\f29 \hich\af29\dbch\af28\loch\f29 
+ All right. Now, you see what faith is. It's something... Now look friends; I know that all of you are, at least know this: This body is controlled by five senses. Is that right? All right, its got fiv\hich\af29\dbch\af28\loch\f29 
+e senses is everything that controls this human body. Now, listen real close, and give me your attention now. The sense, five senses, is this right? See, taste, feel, smell, hear, is that right? Them five senses control the entire human body. Is that true
+\hich\af29\dbch\af28\loch\f29 ?\hich\af29\dbch\af28\loch\f29 
+ See, taste, feel, smell, and hear. Now, there's none of them that declare faith. Faith is the sixth sense, known to some people as you want to as mental telepathy or--or whatever you want or wish to call it, many of the call it names, but to me its faith
+\hich\af29\dbch\af28\loch\f29 .\hich\af29\dbch\af28\loch\f29  And that is in and above all five senses of the human body. You see what I mean? }{\cs48\f29\fs18 \hich\af29\dbch\af28\loch\f29 [End of record--Ed.]}{\f29 \hich\af29\dbch\af28\loch\f29 
+... great...\line Faith is the only direct and positive sense, and it's the sixth sense. Faith is more than sight. Faith is more than feeling. You do not feel \hich\af29\dbch\af28\loch\f29 
+faith. You don't taste faith. You don't smell faith. You don't see faith. Faith is the substance of things hoped for, the evidence of things not seen. 
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-49}{\f29 \hich\af29\dbch\af28\loch\f29  Here, see this Bible? Now, I want that Bible. Now, I'm looking at it. Now, I want it. Faith is \hich\af29\dbch\af28\loch\f29 
+the substance of things hoped for, the evidence of things I do not see. See what I mean?\line 
+Here, in my pocket, I think there's an old Barlow knife I've carried for years. Now, I do not see that knife. I do not feel that knife. I do not taste that knife. I d\hich\af29\dbch\af28\loch\f29 o\hich\af29\dbch\af28\loch\f29 
+ not smell that knife. But I know that knife is in there. How do you know? Because I believe it's in there. Now, if it is not in there, faith will put it in there, if it's not there.\line 
+That chokes you, I know. But--but that's true. If you believe, all thing\hich\af29\dbch\af28\loch\f29 s\hich\af29\dbch\af28\loch\f29 
+ are possible. You're afraid to take God, friends. You're scared. Now, I might've left that knife laying on the dresser where I changed clothes awhile ago. But just as sure if that knife is on the dresser right now, if I believe it with all my heart, it'l
+\hich\af29\dbch\af28\loch\f29 l\hich\af29\dbch\af28\loch\f29  be in my pocket. That chokes you. But God is able to put it there if you believe it. 
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-50}{\f29 \hich\af29\dbch\af28\loch\f29  Here, I want to show you something. Come here, Reverend Kidson. Is this Sister Marse? Would you stand up just a moment?\line 
+I want to show you something, friends. Just \hich\af29\dbch\af28\loch\f29 stand right here. And you don't mind, that's not making a--a public show for you, sister, but it's for the glory of God.\line 
+Now, look friends, I want to show you something. I believe there's a--a woman standing in front of me. Could you tell me I'm wrong? }{\cs48\f29\fs18 \hich\af29\dbch\af28\loch\f29 [Br\hich\af29\dbch\af28\loch\f29 other Kidson replies, "You don't..."--Ed.]}
+{\f29 \hich\af29\dbch\af28\loch\f29  But... }{\cs48\f29\fs18 \hich\af29\dbch\af28\loch\f29 [You don't hear any woman?"--Ed.]}{\f29 \hich\af29\dbch\af28\loch\f29  No, I don't hear any woman. }{\cs48\f29\fs18 \hich\af29\dbch\af28\loch\f29 
+["You don't feel any woman?"--Ed.]}{\f29 \hich\af29\dbch\af28\loch\f29  No, sir. Don't know how I know there's one there? }{\cs48\f29\fs18 \hich\af29\dbch\af28\loch\f29 ["You don't taste any woman?"--Ed.]}{\f29 \hich\af29\dbch\af28\loch\f29  No. }{
+\cs48\f29\fs18 \hich\af29\dbch\af28\loch\f29 ["How can you tell \hich\af29\dbch\af28\loch\f29 there's a woman there?"--Ed.]}{\f29 \hich\af29\dbch\af28\loch\f29  Because the sense of sight tells me I see a woman. }{\cs48\f29\fs18 
+\hich\af29\dbch\af28\loch\f29 ["Hum, well, are you sure?"--Ed.]}{\f29 \hich\af29\dbch\af28\loch\f29  I'm positive there's a woman standing there. Do you believe that I'm right? }{\cs48\f29\fs18 \hich\af29\dbch\af28\loch\f29 ["Yes."--Ed.]}{\f29 
+\hich\af29\dbch\af28\loch\f29  Audience, you think I am right? Now, is \hich\af29\dbch\af28\loch\f29 
+it possible I could be wrong? Yes. Every one of us may be blinded of our eyes. That might be a vision. Remember the five sense of the body is not so direct. Faith is positive. 
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-51}{\f29 \hich\af29\dbch\af28\loch\f29  Now, I know there's a woman standing there though, because that the sense \hich\af29\dbch\af28\loch\f29 
+of sight tells me there's a woman standing there. You see what I mean? Now, you think you could argue me down, tell me there's no woman standing there. Then you try it one time. You try to tell me I'm not looking at a woman standing before me. You think y
+\hich\af29\dbch\af28\loch\f29 o\hich\af29\dbch\af28\loch\f29 
+u could out argue me? No, sir, because I know this sense of sight is direct, and I'm looking at that woman, and I know she's standing there. Yet the only thing that I know is the sense of sight. Now, I want you to notice. Now, I'm going to close my eyes. 
+\hich\af29\dbch\af28\loch\f29 N\hich\af29\dbch\af28\loch\f29 ow, I feeled a woman's hand. }{\cs48\f29\fs18 \hich\af29\dbch\af28\loch\f29 [End of record--Ed.]}{\f29 \hich\af29\dbch\af28\loch\f29  
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-52}{\f29 \hich\af29\dbch\af28\loch\f29 
+ I can tell its a woman. She has a woman's hat on. She has a woman's hair; it's a woman's hand. I know it's a woman, because I feel her. You think you could out argue me? }{\cs48\f29\fs18 \hich\af29\dbch\af28\loch\f29 ["No."--Ed.]}{\f29 
+\hich\af29\dbch\af28\loch\f29  Huh? That's direc\hich\af29\dbch\af28\loch\f29 
+tly; I know it, that that was a woman. I've got my back turned to her, but yet I know it's a woman. See? Because the sense of feeling tells me there's a woman there. You see what I mean?\line 
+Now, sight told me there's one there now. I don't feel her. That's t\hich\af29\dbch\af28\loch\f29 h\hich\af29\dbch\af28\loch\f29 
+e sense of sight. I know she's standing there, because I'm looking at her. I close my eyes. I know she's standing there now, because--not because I see her; because I feel her hand. I know she's standing there. I don't see her, but yet I feel her. The sen
+\hich\af29\dbch\af28\loch\f29 s\hich\af29\dbch\af28\loch\f29 e of feeling declares there's a woman standing there. See what I mean? 
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-53}{\f29 \hich\af29\dbch\af28\loch\f29 
+ Now, faith is the substance of things hoped for, the evidence (See?), direct positive, just the same as my sight is positive, same as my feeling's positive... It's the evidence of\hich\af29\dbch\af28\loch\f29 
+ things not seen, just as positive as that is. You see what I mean?\line So many people try to work theirself up and say, "Oh, I--I got faith." But, friends, it's not there. If it was, it would react. See? You know what I mean? 
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-54}{\f29 \hich\af29\dbch\af28\loch\f29  Now, look... Thank you, Sis\hich\af29\dbch\af28\loch\f29 ter Marse and God bless you.\line 
+Now, look. Now, I seen the woman; my sense of sight said she was there. Then I knew she was there by the sense of sight. I closed my eyes; I didn't have sight. Then I felt her, and the sense of feeling said she was there. The 
+\hich\af29\dbch\af28\loch\f29 s\hich\af29\dbch\af28\loch\f29 ense of feeling was just as direct as the sense of sight, because it was a direct evidence.\line 
+Now, faith is a direct evidence of things not seen, felt, taste, smelled, or heard. Now, look here. I'm going to close my eyes now. Watch. 
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-55}{\f29 \hich\af29\dbch\af28\loch\f29  That was orange jui\hich\af29\dbch\af28\loch\f29 ce. }{\cs48\f29\fs18 \hich\af29\dbch\af28\loch\f29 [Brother Kidson says, "You don't see any oranges."--Ed.]}{
+\f29 \hich\af29\dbch\af28\loch\f29  No, sir. }{\cs48\f29\fs18 \hich\af29\dbch\af28\loch\f29 ["You don't hear any oranges."--Ed.]}{\f29 \hich\af29\dbch\af28\loch\f29  No, sir. }{\cs48\f29\fs18 \hich\af29\dbch\af28\loch\f29 
+["You don't feel any oranges."--Ed.]}{\f29 \hich\af29\dbch\af28\loch\f29  No, sir. }{\cs48\f29\fs18 \hich\af29\dbch\af28\loch\f29 ["You don't smell any oranges."--Ed.]}{\f29 \hich\af29\dbch\af28\loch\f29  No, sir. }{\cs48\f29\fs18 
+\hich\af29\dbch\af28\loch\f29 ["What makes you think that is orange?"--Ed.]}{\f29 \hich\af29\dbch\af28\loch\f29  B\hich\af29\dbch\af28\loch\f29 ecause I tasted it. }{\cs48\f29\fs18 \hich\af29\dbch\af28\loch\f29 ["Are you positive?"--Ed.]}{\f29 
+\hich\af29\dbch\af28\loch\f29  I'm positive that was orange juice. That would not have been lemon; it would not have been grape. It would not have been grapefruit. That was orange juice, because the sense of taste. I--I didn't smell it; I d
+\hich\af29\dbch\af28\loch\f29 idn't hear it; I didn't feel it; I didn't see it; but yet the sense of taste told me that was orange juice. You think I'm right? }{\cs48\f29\fs18 \hich\af29\dbch\af28\loch\f29 ["You're right."--Ed.]}{\f29 \line 
+\hich\af29\dbch\af28\loch\f29 Sure it is. Why, the sense of taste proved that it was orange juice. Now, no matter how much you tell me\hich\af29\dbch\af28\loch\f29 
+ it was water; I know it's orange juice. I tasted it. See? You could taste it too. And if you've got a sense of taste, you would know it the same. And if you've got faith you'll know the same thing I'm talking about. Now, watch here again, now watch here.
+\line \hich\af29\dbch\af28\loch\f29 I smell perfume. That's perfume. }{\cs48\f29\fs18 \hich\af29\dbch\af28\loch\f29 [Brother Kidson says, "You can't see any."--Ed.]}{\f29 \hich\af29\dbch\af28\loch\f29  I don't see any perfume. }{\cs48\f29\fs18 
+\hich\af29\dbch\af28\loch\f29 ["You don't hear any."--Ed.]}{\f29 \hich\af29\dbch\af28\loch\f29  I don't hear any perfume. }{\cs48\f29\fs18 \hich\af29\dbch\af28\loch\f29 ["You don't taste any."--Ed.]}{\f29 \hich\af29\dbch\af28\loch\f29  I don't taste it. }
+{\cs48\f29\fs18 \hich\af29\dbch\af28\loch\f29 ["You don't feel any."--Ed.]}{\f29 \hich\af29\dbch\af28\loch\f29  I don't feel it. }{\cs48\f29\fs18 \hich\af29\dbch\af28\loch\f29 ["What makes you think that's perfume?"--Ed.]}{\f29 
+\hich\af29\dbch\af28\loch\f29  'Cause I smell it. }{\cs48\f29\fs18 \hich\af29\dbch\af28\loch\f29 ["Amen."--Ed.]}{\f29 \hich\af29\dbch\af28\loch\f29  That's right. The sense of smell tells me that was perfume before my nose. }{\cs48\f29\fs18 
+\hich\af29\dbch\af28\loch\f29 [Scratch on the record--Ed.]}{\f29 \hich\af29\dbch\af28\loch\f29 ... me? Try it. All right, know that was perfume. I didn't see it, did I?\hich\af29\dbch\af28\loch\f29 
+ Did I see it? I had my eyes closed. Did I taste it? No, I didn't have it in my mouth. Did I feel it? Never had my hands about it, nor nothing else. How did I know it then? Did I hear it? No, I smelled it, and it was a direct evidence that that was perfum
+\hich\af29\dbch\af28\loch\f29 e\hich\af29\dbch\af28\loch\f29 . I know it. }{\cs48\f29\fs18 \hich\af29\dbch\af28\loch\f29 [End of record.--Ed.]}{\f29 \hich\af29\dbch\af28\loch\f29  
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-56}{\f29 \hich\af29\dbch\af28\loch\f29  Now... }{\cs48\f29\fs18 \hich\af29\dbch\af28\loch\f29 [Brother Kidson says, "...don't feel any music."--Ed.]}{\f29 \hich\af29\dbch\af28\loch\f29  No, sir. }{
+\cs48\f29\fs18 \hich\af29\dbch\af28\loch\f29 ["You don't taste any music."--Ed.]}{\f29 \hich\af29\dbch\af28\loch\f29  No, sir. }{\cs48\f29\fs18 \hich\af29\dbch\af28\loch\f29 ["Well, what makes you think that's music?"--Ed.]}{\f29 
+\hich\af29\dbch\af28\loch\f29  I hear it, and I know it's music. }{\cs48\f29\fs18 \hich\af29\dbch\af28\loch\f29 ["Are you sure \hich\af29\dbch\af28\loch\f29 about that?"--Ed.]}{\f29 \hich\af29\dbch\af28\loch\f29 
+ I'm positive. The lady's playing "Only Believe." You think I'm right? }{\cs48\f29\fs18 \hich\af29\dbch\af28\loch\f29 ["You're right."--Ed.]}{\f29 \hich\af29\dbch\af28\loch\f29 
+ Try to argue me out of it. I don't see it. I don't taste it. I don't feel it. I don't smell it. But I hear it. Was I positive? Do I know that I'\hich\af29\dbch\af28\loch\f29 m right? Why? 
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-57}{\f29 \hich\af29\dbch\af28\loch\f29 
+ Now, there is the five senses of the body. Now, they're positive, aren't they? You know when they happen. You know. Now, you're looking at a audience. You know you're looking at me.\line Well, then friends, faith... Here it is. Faith is the 
+\hich\af29\dbch\af28\loch\f29 
+substance of things hoped for, the evidence of things not seen. It's positive. You know it. There's no need of anybody telling you anything more about it. It's just as much declared as any of these other five senses of the body. You know what I mean? How 
+\hich\af29\dbch\af28\loch\f29 m\hich\af29\dbch\af28\loch\f29 any has a general understanding now of what I mean? Let's see your hands. See, see? 
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-58}{\f29 \hich\af29\dbch\af28\loch\f29 
+ It ain't what you try to make yourself believe. Now, for instance, I try to make myself believe I'm hearing music. I--I wouldn't do it. May I make myself believe I'm \hich\af29\dbch\af28\loch\f29 
+smelling perfume. It's just not there. I've got to absolutely do it. You see what I mean?\line And faith is that positive. It is an act of positive. You know it. Oh, my, I hope you see it, what I mean. 
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-59}{\f29 \hich\af29\dbch\af28\loch\f29  See, it's the substance of things hoped for, the evid\hich\af29\dbch\af28\loch\f29 
+ence of things not seen. You don't see it. You don't taste it. Somebody say, "I don't feel any better."\line Well, what's the matter? Why don't you feel any better? If you have your faith, according to your faith be it unto you. Is that right? See?\line 
+No matter h\hich\af29\dbch\af28\loch\f29 o\hich\af29\dbch\af28\loch\f29 
+w you feel, you're healed anyhow. No matter what you see, you're healed anyhow. See what I mean? It is a... You know it. There's nothing can take it out of your heart. You know it. It's just positive act right there. Oh, my.\line 
+If you could only see it, frie\hich\af29\dbch\af28\loch\f29 n\hich\af29\dbch\af28\loch\f29 
+ds, something would take place. If you could only know what I'm talking about, something would react right now. See? It's a positive. It's right there, just as positive as these other five senses. These are of the natural man. Faith is of God. The natural
+\hich\af29\dbch\af28\loch\f29  \hich\af29\dbch\af28\loch\f29 man can be wrong, but God cannot be wrong. Oh, my. 
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-60}{\f29 \hich\af29\dbch\af28\loch\f29 
+ Why, it would make us go to shouting. Think of it. And people tell me they got faith and say they can't believe in Divine healing? Friends, if you don't believe in Divine healings, you're lost. That'\hich\af29\dbch\af28\loch\f29 
+s right. How you going to, if you can't have faith enough for God to patch up this body to glorify Him in, how much more you going to have faith to believe that God will take this old mortal and make immortality out of it to take it up. That's a direct Di
+\hich\af29\dbch\af28\loch\f29 v\hich\af29\dbch\af28\loch\f29 ine healing. Oh, my, there's going to be some awful disappointments at the day of judgment, at the resurrection. That's right. 
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-61}{\f29 \hich\af29\dbch\af28\loch\f29  Faith... We've got to get in such a place till we be translated like Enoch was. That's right. Faith, testimony, that it ple\hich\af29\dbch\af28\loch\f29 
+ased God. Did not Enoch... Our following Scripture said that Enoch had a testimony by faith that he pleased God. Is that right? And the Bible said, "Without faith it's impossible to please God." So you've got to have the same kind of faith that you believ
+\hich\af29\dbch\af28\loch\f29 e\hich\af29\dbch\af28\loch\f29 , and know. }{\cs48\f29\fs18 \hich\af29\dbch\af28\loch\f29 [End of record.--Ed.]}{\f29 \hich\af29\dbch\af28\loch\f29  
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-62}{\f29 \hich\af29\dbch\af28\loch\f29 
+ A gift of healing, not a gift of miracles, though many miracles are performed right along with it. But it's a gift of healing; the people get well. They go out, prayed for, they come back. And my, they're healed. Wai\hich\af29\dbch\af28\loch\f29 
+t till I leave the city, friends. After I'm gone a long time you'll hear the people coming to your churches and saying, "Well, that cancer, it's gone." "That--that deafness I had, why, I--I hear now." "My affliction, why, it just left me." 
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-63}{\f29 \hich\af29\dbch\af28\loch\f29  It's just \hich\af29\dbch\af28\loch\f29 
+the simplicity of... It's nothing you can work yourself up to. It's no excitement. I notice people come in line, just get to shaking themselves, and saying, "Oh, God, hallelujah. Amen. Glory to God."\line 
+Don't do that. You interfere with faith there. You inte\hich\af29\dbch\af28\loch\f29 r\hich\af29\dbch\af28\loch\f29 
+fere with God. Come up reverently and just lay your hand up and believe. That's all. Faith, you don't work yourself up to it. Faith is something that's already in your heart. You just come and believe. You see what I mean?\line 
+Oh, friends, my, I love you. I w\hich\af29\dbch\af28\loch\f29 o\hich\af29\dbch\af28\loch\f29 uldn't talk to you so straight if I didn't love you. But I love you too well to see you get by without this. You see? You--you must understand. 
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-64}{\f29 \hich\af29\dbch\af28\loch\f29  And now look, now to my text right quick so we can hurry up. God testified of Abel's gift. God always test\hich\af29\dbch\af28\loch\f29 
+ifies of His gifts. Is that right?\line 
+Now, I want you to notice, when the children of Israel were in bondage four hundred and twenty years down in Egypt, carried down there by Joseph when they went down... By and by there raised up a Jo--or a Pharaoh who did\hich\af29\dbch\af28\loch\f29  
+\hich\af29\dbch\af28\loch\f29 
+not know Joseph. And then the people got in bondage. And they had to make straw houses and bricks and things out of straw and stubbles. And then they begin to cry to God for a deliverer. Is that right? And they cried and cried. And God foreordained a deli
+\hich\af29\dbch\af28\loch\f29 v\hich\af29\dbch\af28\loch\f29 erer (Is that right?), Moses. 
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-65}{\f29 \hich\af29\dbch\af28\loch\f29 
+ And when Moses came to the age of maturity, he went out and seen two Egyptians mistreating a Hebrew, and he slew the Egyptians and buried them. And the next day when he met the Hebrews striving among one another, "Why," \hich\af29\dbch\af28\loch\f29 
+they said, "will you kill us as you did the Egyptian?"\line 
+Now, look, be quiet people. Moses, the very deliverer, God's gift to the people, they did not understand him. You see what I mean? They did not understand Moses. And Moses thought, surely, that they w\hich\af29\dbch\af28\loch\f29 o
+\hich\af29\dbch\af28\loch\f29 uld understand that he was their gift to deliver them. But they did not understand.\line 
+And now, friends, don't get me wrong. May I say this with reverence in my heart, knowing that I'm an eternity bound person that'll stand before judgment someday.\line Thousands\hich\af29\dbch\af28\loch\f29  \hich\af29\dbch\af28\loch\f29 
+of people are missing their gift. See? They can't understand it. And they'll look and say, "Oh, he's just a man."\line 
+That's true. Was it God or Moses that delivered the people? It was God in Moses. See? They cried for the deliverer. And when God sent the del\hich\af29\dbch\af28\loch\f29 i\hich\af29\dbch\af28\loch\f29 
+verer to them, they failed to see it, because it was by a man. But it wasn't a man; it was God in the man. }{\cs48\f29\fs18 \hich\af29\dbch\af28\loch\f29 [End of record--Ed.]}{\f29 \hich\af29\dbch\af28\loch\f29  
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-66}{\f29 \hich\af29\dbch\af28\loch\f29  "... that dwelleth in Me. He's the One that doeth the works." You see? But He was God's Gift to the world. God gave Him fo\hich\af29\dbch\af28\loch\f29 
+r you and I. Aren't you happy about it? Look, God gave Him.\line Well now, the people that believed that God give Him, they can be saved. But those who do not believe it, they can't be saved. Is that right?\line 
+And there's no other way at all to enter the Kingdom,\hich\af29\dbch\af28\loch\f29  \hich\af29\dbch\af28\loch\f29 
+only by Him. Is that right? Well now, if you believe it, you can be saved. But if you don't believe it, you can't be saved, because He is God's Gift.\line 
+Look, the Scriptures say, "No man... We know that God was with Christ, for no man could do the works that\hich\af29\dbch\af28\loch\f29  \hich\af29\dbch\af28\loch\f29 He done except God be with Him." Is that right?\line 
+Then what was it? God was testifying that that was His only begotten Son. Is that right? God testified that; He said: "This is My Son." He said, "If you don't believe Me, believe for the very work's sake." I\hich\af29\dbch\af28\loch\f29 s
+\hich\af29\dbch\af28\loch\f29 
+ that right? He said, "The man testifies of himself," you know how the Scriptures read, "but if--if he testify and that what he says is not true, then believe Me not. But if I testify and that what I say is true, My Father will testify of it."\line 
+And if I te\hich\af29\dbch\af28\loch\f29 l\hich\af29\dbch\af28\loch\f29 
+l you about a gift of Divine healing and God doesn't testify of it, leave it go; it's wrong. But if God testifies of it, believe it's God's gift to you. That's right. You see what I mean? 
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-67}{\f29 \hich\af29\dbch\af28\loch\f29  I hate to have to bring this out like this, friends, but I'm t\hich\af29\dbch\af28\loch\f29 
+rusting you're getting between the lines of it. Now, notice. See, it's God's gift. After Jesus, when He went away... He was taken up. Many people came to Jesus that never got healed. He prayed for many who never had no results of it, because they didn't b
+\hich\af29\dbch\af28\loch\f29 e\hich\af29\dbch\af28\loch\f29 lieve. They didn't believe that He was God's Son. They said, "Why, He makes Hisself God. He forgives sins on earth: blasphemy." Don't you see?\line 
+They said about Elijah. They said the same thing about Moses. "Why, we would that we had died down in Egypt, tha\hich\af29\dbch\af28\loch\f29 n\hich\af29\dbch\af28\loch\f29  be brought out here to starve in the wilderness."\line 
+See, God's messenger has always been rejected. You know what I'm talking of, don't you? I hope you do, friends. God bless your hearts. I--I want you to see it, friends. 
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-68}{\f29 \hich\af29\dbch\af28\loch\f29  Now, then they were in need of\hich\af29\dbch\af28\loch\f29  a Saviour. God sent Christ to the world for a Saviour.\line 
+Then after Jesus going away, many of the beloved people of God were sick and afflicted. God gave Peter the gift of Divine healing. Now, it--the people got healed because God testified through Peter o\hich\af29\dbch\af28\loch\f29 f
+\hich\af29\dbch\af28\loch\f29 
+ the gift of Divine healing just like he testified through Elijah as a prophet, through Moses as a deliverer, through Christ as a Son. He testified through Peter as a healer. Did he do it? And the people got the idea. And they even got such a mob of peopl
+\hich\af29\dbch\af28\loch\f29 e\hich\af29\dbch\af28\loch\f29 
+, that Peter couldn't pray for each one of them, and they knew that this apostle was God's gift to them. And he never shook their hands and said, "God bless you." They took the people on the outside of the building and laid them down on the street that ev
+\hich\af29\dbch\af28\loch\f29 e\hich\af29\dbch\af28\loch\f29 
+n his shadow would pass over them and they would be healed. Is that right? Why? Because they knew that Peter was the gift of healing sent from God to the people. Oh, I hope you see it, friends, look. You see, it was God's gift. What now, I want to ask you
+\hich\af29\dbch\af28\loch\f29 ,\hich\af29\dbch\af28\loch\f29  was it Peter done the healing? }{\cs48\f29\fs18 \hich\af29\dbch\af28\loch\f29 [End of record--Ed.]}{\f29 \hich\af29\dbch\af28\loch\f29  
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-69}{\f29 \hich\af29\dbch\af28\loch\f29 
+ God is not in material things. God is in men. The Holy Ghost never fell on organizations; it fell on men. And so many people today say, "They don't belong to my faith." Well, if you're the faith of\hich\af29\dbch\af28\loch\f29 
+ Christ, it's all the same. God doesn't care about... Your organization don't mean that to Him. And the peoples got theirself to a place it's just a big organized world. And it--that's the reason I'd rather have it in a auditorium.\line 
+If it's in a--a Oneness\hich\af29\dbch\af28\loch\f29  \hich\af29\dbch\af28\loch\f29 
+church, the Trinity won't come. If it's a Trinity's church, the Oneness won't come. If it's in a Methodist church, the Baptists won't come. If it's in a Baptist church, the Methodists won't come. One body... One person said, "Should we be baptized over no
+\hich\af29\dbch\af28\loch\f29 w\hich\af29\dbch\af28\loch\f29  in order to come, be prayed for?"\line 
+Mercy, that's as pagan as we ever had it. That's right. No. For by one Spirit we're all baptized into one body (That's right.), regardless of who you are and where you are. That's right. So it don't make any difference w\hich\af29\dbch\af28\loch\f29 h
+\hich\af29\dbch\af28\loch\f29 at organization you are. You don't have to belong to the Baptist church, or the Methodist church, or the Pentecost, or whatever it is. You have to have faith in God. That's right.\line 
+Now, and frankly, you don't have to belong to no church. But if you get hea\hich\af29\dbch\af28\loch\f29 l\hich\af29\dbch\af28\loch\f29 
+ed and go sin again, it'll come back on you again worse than it was in the first place. You go somewhere then to church and serve God. God don't heal you for the devil's glory. He heals you for His glory. 
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-70}{\f29 \hich\af29\dbch\af28\loch\f29  Now, look: how the people fail. Now, Moses fe\hich\af29\dbch\af28\loch\f29 
+lt, I'd imagine how he felt. He just hated to come right out and tell the people, because he thought it'd be self-exaltation. He thought the people'd say, "Now, look at that man."\line 
+We've had a lot of that in the world today. We've had a lot of people come \hich\af29\dbch\af28\loch\f29 t\hich\af29\dbch\af28\loch\f29 
+hrough say, "God done this and He done that." But God didn't bear record of it. But if God bears record, He will respect His gift. Is that right? 
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-71}{\f29 \hich\af29\dbch\af28\loch\f29  Yes, sir, God honored the gift of--of Abel. He honored the gift of Moses. And Moses thought the people w\hich\af29\dbch\af28\loch\f29 
+ould understand. But they did not understand.\line 
+And today, surely, looks like a person wouldn't have to come down any closer than what you are right now to know what I'm speaking of. All right, but it goes over the majority's head. And, friends, I love you,\hich\af29\dbch\af28\loch\f29  
+\hich\af29\dbch\af28\loch\f29 and I want to see you get well.\line Now, when they called for a deliverer, God sent the deliverer, and they failed to see it. Moses was God's gift to Israel. You believe it? 
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-72}{\f29 \hich\af29\dbch\af28\loch\f29  On down, Elijah the prophet, they were God's gift. Many of them raised up false \hich\af29\dbch\af28\loch\f29 
+prophets. Right in the days of Elijah there raised up false prophets, but God testified of the prophecy of Elijah. If it's of God, God will testify of it. And there was Elijah, and he was God's gift to Israel. You believe it?\line 
+He was even Ahab's pastor. He\hich\af29\dbch\af28\loch\f29  \hich\af29\dbch\af28\loch\f29 
+was Jezebel's pastor. She didn't want to admit that he was her pastor, but he was the man who told her where she was living. That's right. He was her pastor. She hated him, but yet he was God's provided gift for her down there to let her know her sins; an
+\hich\af29\dbch\af28\loch\f29 d\hich\af29\dbch\af28\loch\f29  she failed to see him. You know what I'm speaking of? 
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-73}{\f29 \hich\af29\dbch\af28\loch\f29 
+ Along come Jesus. And Jesus... Listen. Jesus was God's gift to Israel, to the world. Is that right? Jesus was God's gift. "God so loved the world that He gave His only \hich\af29\dbch\af28\loch\f29 begotten Son." You believe it? }{\cs48\f29\fs18 
+\hich\af29\dbch\af28\loch\f29 [End of record--Ed.]}{\f29 \line \hich\af29\dbch\af28\loch\f29 
+And it wasn't the apostles. Do you think Moses was the--the deliverer because it was Moses, his wits and his intelligence? Why, he said he was a man of slow speech. It was God in Moses, a gift to the peop\hich\af29\dbch\af28\loch\f29 
+le. It was God in Christ. He said, "It's not Me; it's My Father that dwelleth in Me."\line 
+That's the reason Martha said, "Lord..." (last night's sermon) Said, "I know that Thou art the Christ, the--the Son of God that should come into the world." She believed\hich\af29\dbch\af28\loch\f29  \hich\af29\dbch\af28\loch\f29 
+it. And there the people believed on Him. 
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-74}{\f29 \hich\af29\dbch\af28\loch\f29 
+ And look at Peter when he was walking by, why, he was a mortal. He was born of sinful flesh just like I or you. That's right. But the people had need of a healer, so they sent--God sent Peter to do that speci\hich\af29\dbch\af28\loch\f29 
+fic work. John was love. Peter didn't have the love in his heart that John had. John was God's agency of love. You see?\line 
+Look here, when He taken Peter, James, and John, hope, faith, and charity... Don't you see? Those gifted people, them three, the hope, \hich\af29\dbch\af28\loch\f29 f\hich\af29\dbch\af28\loch\f29 aith, and charity...\line 
+Hope was in James; he was the one that set the church in order. Faith was in Peter. And charity was in John. Hope, faith, and charity, it was God's representatives on the earth.\line And the people laid in Peter's shadow and were healed. O
+\hich\af29\dbch\af28\loch\f29 h\hich\af29\dbch\af28\loch\f29 , friends. Oh, my. Don't think I'm yelling at you, friends. You might think I'm excited, but I'm not. I'm trying to get my point to you close enough so you'll see what I'm talking about. 
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-75}{\f29 \hich\af29\dbch\af28\loch\f29  Now, Pentecost people has been praying for the last thirty or f\hich\af29\dbch\af28\loch\f29 orty years for a gift of healing.\line 
+We're living in the days when we've got the best medical science we ever had. We got the best hospitals we ever had. We got the best doctors we ever had. We got the best drugs we ever practiced with. And we got more sickn\hich\af29\dbch\af28\loch\f29 e
+\hich\af29\dbch\af28\loch\f29 ss than we ever had.\line 
+There's thousands and hundreds of thousands of precious saints of God suffering tonight. And they are crying and crying and cried for years for God to restore the gift of Divine healing to the church. And when God moved the orbits thi
+\hich\af29\dbch\af28\loch\f29 r\hich\af29\dbch\af28\loch\f29 ty-seven years ago, and foreordained it and sent it, many hundreds of people are passing by without recognizing it, friends. 
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-76}{\f29 \hich\af29\dbch\af28\loch\f29  Now, it's brought to pass. I hate to say this. God have mercy. Look, friends, down through the rest of the country, over in P\hich\af29\dbch\af28\loch\f29 
+hoenix, over in Houston, over in San Antonio, down in Arkansas, down across the country, thousands are being healed, coming through there, of all kinds of sickness and diseases. Oakland, know your day. Someday, I shall meet you before the judgment bar of 
+\hich\af29\dbch\af28\loch\f29 G\hich\af29\dbch\af28\loch\f29 
+od, and you'll know I testified to you the God Almighty's truth. You cried for it. What? If you, just as you respect it as you believe it, God will testify of His gifts. That's right. He did for Abel. He did for Elijah. He did for Moses. He did for Peter.
+\hich\af29\dbch\af28\loch\f29  \hich\af29\dbch\af28\loch\f29 He did for Paul. He did for all, and He will do it yet today.\line 
+When Pentecost first fell and the baptism of the Holy Spirit first begin to fall, the people said, "It's Fanaticism." But God testified of it, that He was so. That's why I'm with you tonight, b\hich\af29\dbch\af28\loch\f29 e\hich\af29\dbch\af28\loch\f29 
+cause I know its the hand of God. Many of them went off into isms with it, but there's a genuine Pentecostal article. God has testified of it. That's true. And the same thing He's done tonight in another manner. }{\cs48\f29\fs18 
+\hich\af29\dbch\af28\loch\f29 [End of record.--Ed.]}{\f29 \hich\af29\dbch\af28\loch\f29  
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-77}{\f29 \hich\af29\dbch\af28\loch\f29  And I was going \hich\af29\dbch\af28\loch\f29 
+into the drug store. And when I went in, I noticed some fellow looking at me kind of strangely. I went on in the store, and I come back out, and I had the bottle cap. And I never forgot about him. And I was still had my uniform on.\line 
+And he put his... The m\hich\af29\dbch\af28\loch\f29 a\hich\af29\dbch\af28\loch\f29 
+n put his hand on my shoulder, and he looked at me; he said, "Sir," said, "I seen you was an officer." Said, "I thought I'd ask you a question." Said, "You may think I'm kind of crazy."\line And I said, "What's the matter, sir?"\line 
+He said, "I live in Paducah, Ke\hich\af29\dbch\af28\loch\f29 n\hich\af29\dbch\af28\loch\f29 
+tucky." He said, "I've been failing in health for about two years." He said, "Last week I had a peculiar dream." He said, "I dreamed that I should come to Jeffersonville, Indiana, to get somebody by the name of Branham to pray for me." Said, "You know whe
+\hich\af29\dbch\af28\loch\f29 t\hich\af29\dbch\af28\loch\f29 her there's any Branhams live here or not?"\line My, you don't know how I felt. I thought, "Oh, God's testifying."\line And I said, "Yes, sir." I said, "I know there's Branhams lives here."
+\line He said, "You know, is there anybody prays for the sick?"\line I said, "I'm the \hich\af29\dbch\af28\loch\f29 o\hich\af29\dbch\af28\loch\f29 ne."\line 
+He just looked at me like that, and tears begin to roll down his cheeks. He just took me by the hand. I took him by the hand, took off my hat, laid my hat and gun down in my hat, knelt down on the side of the street and begin praying for him right th
+\hich\af29\dbch\af28\loch\f29 e\hich\af29\dbch\af28\loch\f29 re on the street.\line When I raised up there was mothers standing, holding the little children back, and men with their hats off like that, waiting for the prayer.\line 
+There's been many things done in Jeffersonville, and they knew what was going on. And when we r\hich\af29\dbch\af28\loch\f29 a\hich\af29\dbch\af28\loch\f29 ised up, there they all were standing there with their heads down listening to the prayer.\line 
+I raised up. And the brother, he put his arms around me, commenced to patting me like that. I've never seen him from this day to that. God healed him. 
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-78}{\f29 \hich\af29\dbch\af28\loch\f29  \hich\af29\dbch\af28\loch\f29 
+And I was standing down at Houston, Texas, Reverend Kidson's meetings. And one morning standing there, oh, my, how I was thinking, praying. There was, we was having day service. And there was just hundreds of people coming in the line, being healed.\line 
+And a\hich\af29\dbch\af28\loch\f29 l\hich\af29\dbch\af28\loch\f29 
+l at once there was a lady that ran in. Oh, the building was about as long as this auditorium, main floor here. And the lady run into the back. She had a little boy in her arms, and she set down. And she was real restless. And the prayer line about four i
+\hich\af29\dbch\af28\loch\f29 n\hich\af29\dbch\af28\loch\f29  abreast was coming by like this.\line And she raised up; she said, "Just a minute, just a minute." And everyone stopped.\line 
+She said, "I don't like to stop that prayer line, but I want to tell you..."\line She was real nervous and shaky, kind of excited. 
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-79}{\f29 \hich\af29\dbch\af28\loch\f29  She sai\hich\af29\dbch\af28\loch\f29 
+d, "I live over on the west side of Houston." Now, Houston's a pretty good size city, several miles across it, and we were on the east side. She said, "This morning my neighbor, the mother of this little child," said, "her father was an old Methodist prea
+\hich\af29\dbch\af28\loch\f29 c\hich\af29\dbch\af28\loch\f29 
+her." Said, "He's been dead twenty years." And said, "Before he died, he used to go around preaching and saying someday God would give the gift back to the church for the Gentiles before the ending of the Gentile dispensation, like He did for the Jews."
+\line A\hich\af29\dbch\af28\loch\f29 n\hich\af29\dbch\af28\loch\f29 d said, "His baby daughter, this is her baby." Said, "She's kind of weakly."\line 
+And said, "This morning after cleaning up her house, she'd set her dust mop up and was lying down across the foot of the bed and was resting." And said, "All at once she had a dr\hich\af29\dbch\af28\loch\f29 e\hich\af29\dbch\af28\loch\f29 
+am. She seen a big black cloud rising." And said, "Coming down out of that cloud, begin to move back." And said, "There come her dead father. And he said, 'Rise and take the child and go to the Houston Gospel Tabernacle. The gift of Divine healing is ther
+\hich\af29\dbch\af28\loch\f29 e\hich\af29\dbch\af28\loch\f29 .'"\line 
+Well, she just thought it was just a dream: never heard of the Houston Gospel Tabernacle. So she just laying there a little while and went to sleep again, and she dreamed it the second time. The big black cloud come. Her dead father come walking right
+\hich\af29\dbch\af28\loch\f29  \hich\af29\dbch\af28\loch\f29 
+down out of the cloud. She said, "Well, that's strange; I dreamed of dad the second time." Said, "He said, take the baby." Well, she got up and got her drink, stirred around the house a little bit and went back and lied--was lying down again. And when she
+\hich\af29\dbch\af28\loch\f29  \hich\af29\dbch\af28\loch\f29 went back, she dreamed it the third time. The big black cloud come. And her... }{\cs48\f29\fs18 \hich\af29\dbch\af28\loch\f29 [End of record--Ed.]}{\f29 \hich\af29\dbch\af28\loch\f29  
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-80}{\f29 \hich\af29\dbch\af28\loch\f29  They called the recorder's office to see if there was, just what was to the dream. I don't believe in all dreams now. So then, called, but he said, "Y
+\hich\af29\dbch\af28\loch\f29 our young men shall see visions, your old men shall dream dreams."\line 
+And then she--she called the recorders office, and he said, "Yes, there's a Houston Gospel Tabernacle way over on the west side, on sixty-seventh street." And he said, "East sixty-seventh \hich\af29\dbch\af28\loch\f29 s\hich\af29\dbch\af28\loch\f29 
+treet."\line And the lady, the mother, so weak she could not... Now, the child was--had infantile paralysis, his little legs was crippled. And she could not bring the child.\line 
+But she had the neighbor, and the neighbor kept changing busses and cars until she got\hich\af29\dbch\af28\loch\f29  \hich\af29\dbch\af28\loch\f29 
+over and got off of a car just about two blocks from the church. And there was an officer standing there. And she said to him, "Do you know where the Houston Gospel Tabernacle is?"\line 
+Said, "Yes, ma'am. Right up there where that crowd of people is standing t\hich\af29\dbch\af28\loch\f29 h\hich\af29\dbch\af28\loch\f29 ere in the street," said, "They're having a healing service." 
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-81}{\f29 \hich\af29\dbch\af28\loch\f29 
+ Well, the poor thing was so weak when she got there, she, you imagine how she felt, walked right in there and seen that. And she told me. I said, "Bring me the baby."\line Oh, my, you know what\hich\af29\dbch\af28\loch\f29 
+ happened, don't you? Sure. And I thought, even though the people, the Angels of heaven know about it. God will testify of it. His works will be declared, regardless of what people think about it. That's right. It's true, friends. God bless your heart. 
+
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-\hich\af1\dbch\af28\loch\f1 82}{\f29 \hich\af29\dbch\af28\loch\f29 
+ Here at Camden, Arkansas, with Brother Adams. I guess one of the Brother Adams' are here tonight? And at his place, he was pulling me out; we had thousands attended the service. And they were pulling me out of the service one day. And I kept hearing som
+\hich\af29\dbch\af28\loch\f29 ebody hollering, "Have mercy, have mercy. Oh, where you at, Reverend?"\line And I turned around, Brother Adams said, "You can't stop." It was a colored man, you know.\line 
+Yet even in Arkansas if you even shake the hands of a colored man they'll put you in jail. So\hich\af29\dbch\af28\loch\f29  \hich\af29\dbch\af28\loch\f29 there they are, such law they have there. You can talk to him, but don't put your hands on him.\line 
+Now, that's not right. That's not. He's a human just as good as I am, or you are, or anybody else. That's exactly right. I don't know what you think about that\hich\af29\dbch\af28\loch\f29 ,\hich\af29\dbch\af28\loch\f29 
+ but I want to unload my soul about it. That's right. Sure. I'm for Abraham Lincoln, and that's all right. And look... 
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-83}{\f29 \hich\af29\dbch\af28\loch\f29  There this poor colored man standing there, hollering, "Oh Reverend."\line Brother Adams said, "Come on, Brother Branham." Said, "My, lo
+\hich\af29\dbch\af28\loch\f29 
+ok at that crowd," said, "they press about you." And they pulled me out of the crowd. They don't mean to be harsh, but they try to take, 'Cause, friends, sometimes you get around, they tramp you to death almost. And they just pull you. I love them. God bl
+\hich\af29\dbch\af28\loch\f29 e\hich\af29\dbch\af28\loch\f29 ss their hearts.\line I'd like to stand right there and touch every one of them and pray for them till I just, and breath will leave out of my body.\line 
+Last night when I left the building, they had to lay me out in the car almost. Even my heart and everything, ju\hich\af29\dbch\af28\loch\f29 s\hich\af29\dbch\af28\loch\f29 t shaking and jumping, like that. 
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-84}{\f29 \hich\af29\dbch\af28\loch\f29 
+ You don't realize the strain of holding them demons when they come out, and they're in the room. And you're responsible. What if something happens in the building? Why, they'd lock you up in jail, and they'd break th\hich\af29\dbch\af28\loch\f29 
+e meeting for good. Is that, see what you mean? You don't know the responsibility of that. And here then, and so tired anyhow after six months of going. 
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-85}{\f29 \hich\af29\dbch\af28\loch\f29  Then I--I said, "Wait a minute."\line And he was just a crying, poor fellow. He had his hat in his han\hich\af29\dbch\af28\loch\f29 
+d, gray headed. He was saying, "Reverend, Reverend."\line His wife said, "You's can't get to him, honey. You's can't get to him."\line 
+And I said, "Wait a minute. Just a minute." And so I looked around, and I looked at him. I said, "What's the matter, sir?"\line And Bro\hich\af29\dbch\af28\loch\f29 t\hich\af29\dbch\af28\loch\f29 
+her Adams and the other man taken me back up where he was at. And I said, "What's the matter?"\line He said, "Reverend, Reverend."\line See, he was holding me like that. Said, "Reverend." Putting his hand over on me.\line I said, "Yes?" 
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-86}{\f29 \hich\af29\dbch\af28\loch\f29  He said, "Just a minute, Rev\hich\af29\dbch\af28\loch\f29 
+erend." He said, "I's come a long ways to come here." He said, "Night before last," said, "my old mammy, she's been dead about twenty years almost." And said, "She was a Christian woman. And I's been blind for better than twelve years." He said, "And last
+\hich\af29\dbch\af28\loch\f29  \hich\af29\dbch\af28\loch\f29 night, or night before last, I dreamed... }{\cs48\f29\fs18 \hich\af29\dbch\af28\loch\f29 [Blank.spot.on.tape--Ed.]}{\f29 \hich\af29\dbch\af28\loch\f29 
+ That God had sent His gift of Divine healing, and it was at Camden, Arkansas, and for me not to let you get by." Said, "Reverend, please don't pass me by."\line You think I could pass him? I do\hich\af29\dbch\af28\loch\f29 
+n't care who he was. It's God. I don't care how much they'd put you in jail. 
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-87}{\f29 \hich\af29\dbch\af28\loch\f29 
+ Then standing there by that poor old fellow, take a hold of his hands. His eyes had been blowed out by an explosion. Taking a hold of his hands and was praying for him, his \hich\af29\dbch\af28\loch\f29 
+wife crying, the tears rolling down off her coat, like that. She's standing there.\line 
+After I got through praying, he just--his eyes, he looked so amazed. He'd look around; he begin to bat his eyes; he said, "Honey, ain't that an automobile setting right the\hich\af29\dbch\af28\loch\f29 r\hich\af29\dbch\af28\loch\f29 
+e?" And it was our car that we were setting in. Tears rolling down his eyes, out of his eyes, he begin to raise his hands and rejoice.\line 
+Oh, brother, God will testify of His gifts. Heavens and earth might pass, but God's going to move. There's going to be s\hich\af29\dbch\af28\loch\f29 o\hich\af29\dbch\af28\loch\f29 
+mebody that's going to receive it (Yes, sir.), if you'll come and respect what God has done for you. That's right. God will testify of His gift. It's right now time to get started. 
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-88}{\f29 \hich\af29\dbch\af28\loch\f29  Listen, not long ago I was in, was over in Illinois. And listen, whil\hich\af29\dbch\af28\loch\f29 
+e we're talking of the colored; this come on my mind. There was... I was in a big coliseum. Many of you know where I'm speaking of. And there looking around and seeing different things, I seen an old colored man with a little ring of white hair around his
+\hich\af29\dbch\af28\loch\f29  \hich\af29\dbch\af28\loch\f29 
+head; he come along like this, looking. And after while he come to a---a certain thing. He stopped. He took off his hat. He held it behind him. He bowed his head. And I seen he was saying a prayer.\line 
+And I walked up to him after he got through praying; I sa\hich\af29\dbch\af28\loch\f29 i\hich\af29\dbch\af28\loch\f29 d, "Sir," I said, "I'm a minister." I said, "I seen you praying. What was so startling about the box?"\line 
+He looked up at me, his poor old wrinkle hardened cheeks, and tears rolling off the sides of his cheeks. He said, "Rev... Parson," he said, "just look o\hich\af29\dbch\af28\loch\f29 v\hich\af29\dbch\af28\loch\f29 er there."\line 
+And I raised up and looked over there, and it looked like a little old dress laying there. I said, "I only see a dress." And that's what many people just see, the natural signs. I said, "I only see the dress."\line He said, "You notice that kind of 
+\hich\af29\dbch\af28\loch\f29 a\hich\af29\dbch\af28\loch\f29  circle in it, parson?"\line And I said, "Yes, sir."\line 
+He said, "Feel right here on my side. Said, "There is marks of a slave belt. That's the blood of Abraham Lincoln." Said, "The blood of Abraham Lincoln took the slave belt off of me. Why shouldn't I take my h\hich\af29\dbch\af28\loch\f29 a
+\hich\af29\dbch\af28\loch\f29 t off and say a prayer?" 
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-89}{\f29 \hich\af29\dbch\af28\loch\f29 
+ And I think tonight, if a colored man, for the freedom and his right, could take his hat off to the blood of Abraham Lincoln, what ought you Christians to do to the Blood of Jesus Christ. See? Oh, friends, I expected to have 
+\hich\af29\dbch\af28\loch\f29 more faith in Oakland and L. A. too.\line 
+I'll tell you the people that received it not long ago, was the Spanish people at Arizona. They caught the idea right quick. They knew it was God's gift to them. They come right on the platform. And I'd see them dear o\hich\af29\dbch\af28\loch\f29 l
+\hich\af29\dbch\af28\loch\f29 d Spanish mothers faint and fall and pulled out of line before they could get to me. They believed it.\line 
+One of them come, she even had a dream that she... She couldn't even speak English. And she seen that supernatural Being standing. (You got the letter h\hich\af29\dbch\af28\loch\f29 e\hich\af29\dbch\af28\loch\f29 
+re, have you?) Many... Why? God will testify of His gift. Is that right? Oh, friends, you know what I'm speaking of. Do you understand now what I'm speaking of? Faith, believe it. Come, it isn't the man; its God in the man. You know what I'm meaning. 
+
+\par }{\cs47\f1\fs18\cf18\super \hich\af1\dbch\af28\loch\f1 E-90}{\f29 \hich\af29\dbch\af28\loch\f29  }{\cs48\f29\fs18 \hich\af29\dbch\af28\loch\f29 [End of record--Ed.]}{\f29 \hich\af29\dbch\af28\loch\f29 
+... please, O God, may people come tonight just like they did in the days of the apostles. May they come realizing that this is the apostolic time for them. This is the hour that what they have asked for is now present: the Holy Ghost 
+\hich\af29\dbch\af28\loch\f29 in the form of healing for their bodies. Grant it, dear God. May many people be healed tonight. Have mercy, Father.\line 
+And may everyone that comes tonight, come like they did when they passed by Your humble servant, Simon Peter. And they were laid in his sha\hich\af29\dbch\af28\loch\f29 d\hich\af29\dbch\af28\loch\f29 
+ow and were made every whit whole, because they recognized God in the man. May they recognize God like they did in Moses. God was in Christ, reconciling the world to Himself. May they recognize God tonight in His people. Grant it, dear Father. Have mercy 
+\hich\af29\dbch\af28\loch\f29 n\hich\af29\dbch\af28\loch\f29 ow and bless every one of them.\line 
+And, dear God, at this time I pray for my little church at home that just had services tonight, crying, begging for me to come home. O God, people gathering in from different parts of the country... Take care of my little o\hich\af29\dbch\af28\loch\f29 r
+\hich\af29\dbch\af28\loch\f29 phan boy, won't You, dear God.\line 
+Oh, I'm out here striving, trying my best, dear God, to obey what I was told to do. And may the people see, Father, what a sacrifice it is, and what You've done for the people. And may they recognize this day and many be hea\hich\af29\dbch\af28\loch\f29 l
+\hich\af29\dbch\af28\loch\f29 ed, and get well of their diseases and testify through this city. For we ask it in the lovely Name of Jesus Christ, Thy beloved Son. Amen.}{\f29 \hich\af29\dbch\af28\loch\f29  }{\f29 
+\par }\pard\plain \ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {
+\par }}
